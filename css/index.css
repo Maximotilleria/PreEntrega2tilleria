@@ -676,11 +676,29 @@ form ::placeholder {
 
 /* titulo de conta */
 .formulario{
-    height: 20rem;
-    width: 60rem;
+    height: 25rem;
+    width: 37rem;
     border: 2px solid white;
-    margin-left: 11rem;
+    margin-left: 25rem;
+}
+.imputs{
+    margin-top: 5rem;
 }
 .contacto{
     text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.email{
+    height: 4rem;
+    width: 10rem;
+    margin-left: 6rem;
+}
+.consulta{
+    width: 25rem;
+    margin-left: 6rem;
+}
+.nombre{
+    
 }
