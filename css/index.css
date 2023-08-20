@@ -549,6 +549,7 @@ form ::placeholder {
     text-transform: uppercase;
     margin-left: 3rem;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 .p-1{
     height: 5rem;
@@ -568,6 +569,7 @@ form ::placeholder {
     text-transform: uppercase;
     margin-left: 2rem;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 
@@ -578,7 +580,7 @@ form ::placeholder {
     font-size: 1rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    margin-top: 9rem;
+    margin-top: 11rem;
 }
 
 
@@ -620,12 +622,14 @@ form ::placeholder {
     font-size: 1rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    margin-top: 4rem;
 }
 .c-6{
     font-size: 1rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
     margin-left: 5rem;
+    margin-top: 4rem;
 }
 
 
@@ -648,15 +652,18 @@ form ::placeholder {
     text-transform: uppercase;
     margin-bottom: 1rem;
     margin-left: 2rem;
+    margin-top: 2rem;
 }
 .c-8{
     font-size: 1rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
     margin-left: 3rem;
+    margin-top: 4rem;
 }
 .c-9{
     font-size: 1rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    margin-top: 4rem;
 }
