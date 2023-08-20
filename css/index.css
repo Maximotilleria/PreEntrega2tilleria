@@ -667,3 +667,20 @@ form ::placeholder {
     margin-bottom: 1rem;
     margin-top: 4rem;
 }
+
+
+
+/* PAGINA CONTACTO */
+
+
+
+/* titulo de conta */
+.formulario{
+    height: 20rem;
+    width: 60rem;
+    border: 2px solid white;
+    margin-left: 11rem;
+}
+.contacto{
+    text-align: center;
+}
