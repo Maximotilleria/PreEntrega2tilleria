@@ -721,3 +721,45 @@ form ::placeholder {
     transition: all .5s ease;
 }
 
+
+
+
+/* PAGINA DE MAESTRIAS Y POSGRADOS */
+
+
+/* titulo de elegirnos */
+
+.p-elegirnos{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    background-image: url('../img/arenayplantita.png');
+    background-position: 100%;
+    background-size: contain;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.art-razones{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.p-raz{
+    height:10rem;
+    width: 20rem;
+    margin-left: 9rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+.p-raza{
+    height:10rem;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.list{
+    margin-bottom: 1rem;
+}
