@@ -888,7 +888,21 @@ form ::placeholder {
 
 /* seccion 2 */
 
-
+.titulodecurso{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 4rem 0 4rem 0;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-image: url('../img/ciber.jpg');
+    background-size: cover;
+}
+.h2cur{
+    font-size: 2rem
+    
+}
 .todo{
     display: grid;
     grid-template-areas: 
@@ -897,6 +911,9 @@ form ::placeholder {
     ;
     width: 50rem;
     margin-left: 15rem;
+}
+.artcu{
+    margin-top: 4rem;
 }
 
 .item1{
@@ -923,4 +940,29 @@ form ::placeholder {
 .imgdecurso{
     height: 15rem;
     width: 25rem;
+    border: 1px solid white;
+}
+
+.titcrean{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 4rem 0 4rem 0;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-image: url('../img/meto.jpg');
+    background-size: contain;
+}
+
+.h2decrea{
+    font-size: 2rem;
+    
+}
+.papre{
+    display: flex;
+    margin-left: 15rem;
+    text-align: justify;
+    width: 50rem;
+    line-height: 2rem;
 }
