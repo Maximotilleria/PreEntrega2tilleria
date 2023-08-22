@@ -854,3 +854,73 @@ form ::placeholder {
     margin-right: 6rem;
 }
 
+
+
+
+/* PAGINA DE CURSOS */
+
+
+/* seccion 1 */
+.np{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    
+}
+
+.pnp{
+    text-align: justify;
+    width: 55rem;
+    margin-left: 15rem;
+    line-height: 2rem;
+}
+.igm{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.imgcurs{
+    height: 12rem;
+    width: 14rem;
+    border: 2px solid white;
+}
+
+
+/* seccion 2 */
+
+
+.todo{
+    display: grid;
+    grid-template-areas: 
+    "item1 item2 item2"
+    "item1 item3 item3"
+    ;
+    width: 50rem;
+    margin-left: 15rem;
+}
+
+.item1{
+    grid-area: item1;
+    margin-right: 1rem;
+}
+
+.item2{
+    grid-area: item2;
+    text-align: start;
+}
+.tdder{
+    font-size: 1.5rem;
+}
+
+.item3{
+    grid-area: item3;
+    text-align: justify;
+}
+.pdeitem3{
+    font-size: 1.28rem;
+    margin-top: 1rem;
+}
+.imgdecurso{
+    height: 15rem;
+    width: 25rem;
+}
