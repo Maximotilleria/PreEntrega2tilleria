@@ -502,7 +502,7 @@ form ::placeholder {
 .main-todo2{
     background-color: #000000;
     color: white;
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 
@@ -739,6 +739,7 @@ form ::placeholder {
     background-size: contain;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    border-bottom: 2px solid white;
 }
 
 .art-razones{
@@ -749,17 +750,107 @@ form ::placeholder {
 
 .p-raz{
     height:10rem;
-    width: 20rem;
-    margin-left: 9rem;
-    margin-right: 3rem;
+    width: 25rem;
+    margin-left: 3rem;
     margin-top: 2rem;
 }
 .p-raza{
     height:10rem;
     width: 20rem;
+    margin-right: 1rem;
     margin-top: 2rem;
 }
 
 .list{
     margin-bottom: 1rem;
 }
+
+
+/* SECCION DE POSGRADO */
+
+
+/* seccion 1 */
+
+
+.fl-uno{
+    display: flex;
+    justify-content: center;
+}
+.maestria{
+    padding: 4rem 0 4rem 0;
+    background-image: url('../img/posgrado.png');
+    background-position: 100%;
+    background-size: cover;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 4rem;
+}
+
+
+
+.titfle{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titul{
+    margin-top: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.direccom{
+    margin-right: 1rem;
+}
+.pff{
+    text-align: justify;
+    height: 8rem;
+    width: 20rem;
+}
+.tituldos{
+    margin-top: 8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.direcrec{
+    width: 22rem;
+    text-align: center;
+}
+.titultres{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/* SECCION2 */
+
+.posgra{
+    padding: 4rem 0 4rem 0;
+    background-image: url('../img/posgrado.png');
+    background-position: 100%;
+    background-size: cover;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+.mae{
+    font-size: 2rem;
+}
+
+.esped{
+    text-transform: uppercase;
+}
+.mkt{
+    margin-right: 2rem;
+}
+.espe{
+    margin-top: 6rem;
+}
+
+.fin{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
