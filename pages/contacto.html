@@ -28,23 +28,21 @@
             <h2 class="contacto"><strong>CONTACTO</strong></h2>
         </section>
         <section class="formulario">
-            <article class="imputs">
-                <form action="enviar.php" method="post">
-                    <div class="form-floating mb-3 email">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Nombre Completo</label>
-                    </div>
-                    <div class="form-floating mb-3 email">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Correo electronico</label>
-                    </div>
-                    <div class="form-floating consulta">
-                        <textarea class="form-control" placeholder="deja tu consulta aqui.." id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">consulta</label>
-                    </div>
-                    <button type="button" class="btn2 btn-dark"><strong>ENVIAR</strong></button>
-                </form>
-            </article>
+            <form autocomplete="off">
+                <div class="imput-group">
+                    <input type="text" name="name" placeholder="Nombre">
+
+                    <input type="email" name="email" placeholder="Email">
+
+                    <textarea name="message"  cols="30" rows="5" placeholder="Consulta"></textarea>
+
+                    <input class="boton" type="submit" value="Enviar">
+                </div>
+                <div class="form-txt">
+                    <a href="">politicas de privacidad</a>
+                    <a href="">terminos y condiciones</a>
+                </div>
+            </form>
         </section>
     </main>
     <footer class="footer">

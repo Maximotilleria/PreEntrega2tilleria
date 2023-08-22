@@ -73,7 +73,6 @@ header{
 }
 
 
-/* AGREGAR HOVER NO ME SALE */
 /* MAIN   */
 /* seccion inicial */
 /* SEDES */
@@ -343,7 +342,6 @@ h1{
 footer{
     box-sizing: border-box;
     text-transform: capitalize;
-    
 }
 .img_creditos2{
     display: flex;
@@ -675,54 +673,97 @@ form ::placeholder {
 
 
 /* titulo de conta */
-.formulario{
-    height: 24rem;
-    width: 37rem;
-    background-image: url('../img/pinitoconta.png');
-    background-position: 100%;
-    border: 2px solid #010a03;
-    margin-left: 25rem;
-}
-.imputs{
-    margin-top: 2rem;
-}
 .contacto{
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
-    border: 2px solid white;
     background-image: url('../img/fondoedificio.png');
     background-position: 100%;
     background-size: contain;
 }
-.email{
-    height: 4rem;
-    width: 10rem;
-    margin-left: 6rem;
+.formulario{
+    height: 25rem;
+    padding: 2rem 5.5rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    text-align: center;
+    width: 34rem;
+    background-image: url('../img/pinitoconta.png');
+    background-position: 100%;
+    margin-left: 25rem;
+    display: flex;
+    justify-content: center;
 }
-.consulta{
-    width: 25rem;
-    margin-left: 6rem;
+.form{
+    background-image:url('../img/fondoedificio.png') ;
 }
-.btn2{
-    background-color: #0f1d11;
+
+.form-txt a{
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 2.5rem;
+}
+.form-txt:hover{
+    color: #15751e;
+}
+
+.imput-group{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+.imput-group input{
+    background-color: #1e3a24;
     border-radius: 1rem;
-    height: 3.5rem;
-    width: 15rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-left: 10rem;
+    height: 3rem;
 }
-.btn2:hover{
-    background-color: #2b442e;
-    transition: all .5s ease;
+.imput , textarea{
+    width: 17rem;
+    max-height: 6rem;
+    overflow: hidden;
+    background-color: #1e3a24;
+    padding: 2rem 1.4rem;
+    margin-bottom: 2.5rem;
+    border: 0;
+    border-radius: 1rem ;
+    color: #000000;
 }
 
+::placeholder{
+    color: #000000;
+}
+:focus{
+    outline: #a7b2a8;
+}
+.boton{
+    background-color: #15371c;
+    color: #000000;
+    cursor: pointer;
+    height: 4rem;
+    width: 6rem;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+.boton:hover{
+    background-color: #78b47e;
+}
+@media(max-width:99.1rem) {
+    formulario{
+        padding: 3rem;
+    }
+    form{
+        width: 100%;
+    }
 
 
+}
+
+.form-txt{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 /* PAGINA DE MAESTRIAS Y POSGRADOS */
 
