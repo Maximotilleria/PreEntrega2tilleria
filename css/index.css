@@ -749,16 +749,6 @@ form ::placeholder {
 .boton:hover{
     background-color: #78b47e;
 }
-@media(max-width:99.1rem) {
-    formulario{
-        padding: 3rem;
-    }
-    form{
-        width: 100%;
-    }
-
-
-}
 
 .form-txt{
     display: flex;
@@ -1014,6 +1004,10 @@ form ::placeholder {
 
 
 @media (max-width:414px) {
+
+    /* PAGINA DE CURSOS RESPONSIVE */
+
+
     .rsect{
         flex-direction: column;
         align-items: center;
@@ -1077,4 +1071,30 @@ form ::placeholder {
         margin-left: 2rem; 
         font-size: 0.8rem;
     }
+
+    /* RESPONSIVE PARA PAGINA DE CONTACTO */
+
+    .contacto{
+        margin-bottom: 8rem;
+        font-size: 2.5rem;
+    }
+
+    .formulario{
+        margin-left: 0;
+        width: 90%;
+        margin-left: 1.2rem;
+    }
+    .imput-group{
+        margin-left: 0rem;
+    }
+    .email{
+        margin-left: 1rem;
+    }
+    .nombre{
+        margin-left: 1rem;
+    }
+    .imput , textarea{
+        margin-bottom: 1rem;
+    }
+    
 }
