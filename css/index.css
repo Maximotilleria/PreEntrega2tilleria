@@ -1001,7 +1001,7 @@ form ::placeholder {
 
 
 /* APLICANDO RESPONSIVE MOBILE  */
-
+/* PAGINA DE CURSO Y PAGINA DE CONTACTO */
 
 @media (max-width:414px) {
 
@@ -1108,7 +1108,8 @@ form ::placeholder {
         flex-direction: column;
     }
     .img_creditos2{
-        padding-left: 4rem;
+        padding-left: 0rem;
+        margin-right: 0rem;
     }
     .footer_row{
         flex-direction: column;
@@ -1211,5 +1212,178 @@ header{
     padding-left: 0rem;
     padding-right: 0rem;
 }
+
+}
+
+
+/* RESPONSIVE PARA TABLET
+   PAGINAS CURSO Y CONTACTO */
+
+@media (min-width: 414px) and (max-width: 720px){
+    
+    /* RESPONSIVE DE CONTACTO */
+
+    .contacto{
+        margin-bottom: 8rem;
+        font-size: 2.5rem;
+    }
+
+    .formulario{
+        
+        width: 90%;
+        margin-left: 2.1rem;
+    }
+    .imput-group{
+        margin-left: 2.1rem;
+    }
+    .email{
+        margin-left: 1rem;
+    }
+    .nombre{
+        margin-left: 1rem;
+    }
+    .imput , textarea{
+        margin-bottom: 1rem;
+    }
+
+    /* NAV RESPONSIVE */
+    header{
+        height: 12rem;
+        width: 0rem;
+    }
+    .header-nav{
+        flex-direction: column;
+        margin-left: 10rem;
+    
+    }
+    .header-logo{
+        height: 4rem;
+        width: 22rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-right: 0rem;
+        padding-top: 0rem;
+    }
+    
+    .header-lista{
+        height: 4rem;
+        width: 25rem;
+        margin-top: 1.5rem;
+        margin-left: 0rem;
+    }
+    .header-enlace{
+        font-size: 0.6rem;
+        margin-right: 1.8rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .main-todo2{
+        padding-top: 10rem;
+    }
+
+    /* RESPONSIVE FOOTER */
+
+    .logito-foot{
+        height: 3rem;
+        width: 30rem;
+        padding-left: 0;
+        
+    }
+    .img_creditos2{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 4rem;
+        padding-left: 0;
+        margin-bottom: 3rem;
+    }
+    .footer{
+        flex-direction: column;
+        
+    }
+    .container{
+        margin-left: 10rem;
+    }
+    .img_creditos2{
+        padding-left: 4rem;
+        margin-right: 20rem;
+    }
+    .footer_row{
+        flex-direction: column;
+        margin-left: 0.5rem;
+    }
+
+    /* UBI */
+    .ubii{
+        margin-left: 4rem;
+    }
+    .footer_ubi{
+        margin-left: 1.5rem;
+    }
+    .footer_ubi a{
+        width: 20rem;
+        padding-right: 4rem;
+    }
+
+    .footer_ubi a img{
+        width: 1.8rem;
+        background-color: aliceblue;
+        border-radius: 50%;
+        padding: 0.2rem;
+        margin-right: 1rem;
+    }
+
+    /* NAVEGACION */
+
+
+    .nav{
+        margin-left: 3rem;
+    }
+    .ulnav{
+        width: 15rem;
+        text-align: center;
+        
+    }
+    .ullo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aubi{
+        font-size: 0.5rem;
+    }
+
+    /* CONTACTO */
+
+    .fmr{
+        margin-left: 1rem;
+    }
+    .con{
+        margin-left: 3rem;
+    }
+    .inputfoo{
+        width: 10rem;
+        margin-left: 3rem;
+    }
+    .btn{
+        height: 2rem;
+        width: 8rem;
+        font-weight: 700;
+        font-size: 1rem;
+        margin-left: 4rem;
+    }
+
+    /* REDES SOCIALES */
+
+    .redes{
+        margin-right: 18rem;
+    } 
+    .img_creditos{
+        height: 5rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-top: 2rem;
+        margin-right: 20rem;
+    }
 
 }
