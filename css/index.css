@@ -1186,11 +1186,6 @@ form ::placeholder {
 header{
     height: 9rem;
     width: 0rem;
-    position: fixed;
-    top: -100%; /* Oculta la barra de navegación fuera de la vista */
-    width: 100%;
-    background-color: #000000;
-    transition: top 0.3s ease-in-out;
 }
 .header-nav{
     flex-direction: column;
@@ -1226,7 +1221,7 @@ header{
 /* RESPONSIVE PARA TABLET
    PAGINAS CURSO Y CONTACTO */
 
-@media (min-width: 414px) and (max-width: 720px){
+@media (min-width: 415px) and (max-width: 720px){
     
     /* RESPONSIVE DE CONTACTO */
 
