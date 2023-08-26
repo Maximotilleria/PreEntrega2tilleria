@@ -1186,9 +1186,15 @@ form ::placeholder {
 header{
     height: 9rem;
     width: 0rem;
+    position: fixed;
+    top: -100%; /* Oculta la barra de navegación fuera de la vista */
+    width: 100%;
+    background-color: #000000;
+    transition: top 0.3s ease-in-out;
 }
 .header-nav{
     flex-direction: column;
+    
 
 }
 .header-logo{
@@ -1205,6 +1211,7 @@ header{
     width: 25rem;
     margin-top: 1.5rem;
     margin-left: 0.5rem;
+    
 }
 .header-enlace{
     font-size: 0.5rem;
@@ -1386,4 +1393,75 @@ header{
         margin-right: 20rem;
     }
 
+
+    /* RESPONSIVE DE CURSOS */
+
+    .rsect{
+        flex-direction: column;
+        align-items: center;
+    }
+    .rh2{
+        font-size: 1.5rem;
+        
+    }
+    .pnp{
+        margin-left: 5rem;
+        height: auto;
+        width: 30rem;
+        line-height: 1.2rem;
+    }
+    .rp{
+        margin-right: 1rem;
+        margin-left: 5rem;
+        font-size: 1rem;
+    }
+    .igm{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgcurs{
+        margin-bottom: 4rem;
+        height: 20rem;
+        width: 20rem;
+    }
+    .todo{
+        display: grid;
+        grid-template-areas: 
+        'item2 item2 item2'
+        'item1 item1 item1'
+        'item3 item3 item3'
+        ;
+        margin-left: 0rem;
+        justify-content: center;
+        padding-right: 8rem;
+    }
+    .item2{
+        text-align: center;
+        width:20rem;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+    }
+    .item1{
+        margin-left: 3rem;
+        margin-right: 0;
+    }
+    .imgdecurso{
+        height: 10rem;
+        width: 20rem;
+    }
+    .pdeitem3{
+        font-size: 1rem;
+        width: 20rem;
+        margin-left: 3rem;
+        height: auto;
+    }
+    .papre{
+        text-align: justify;
+        width: 22rem;
+        line-height: 1rem;
+        margin-right: 0rem;
+        margin-left: 12rem; 
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
 }
