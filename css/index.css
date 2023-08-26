@@ -1178,4 +1178,38 @@ form ::placeholder {
         padding-left: 3rem;
         margin-top: 2rem;
     }
+
+    /* NAV */
+
+
+    header{
+    height: 9rem;
+    width: 30rem;
+}
+.header-nav{
+    flex-direction: column;
+
+}
+.header-logo{
+    height: 3.5rem;
+    width: 20rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    padding-top: 0rem;
+}
+
+.header-lista{
+    height: 4rem;
+    width: 25rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+}
+.header-enlace{
+    font-size: 0.5rem;
+    margin-right: 1.8rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
 }
