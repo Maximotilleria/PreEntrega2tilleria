@@ -1182,9 +1182,9 @@ form ::placeholder {
     /* NAV */
 
 
-    header{
+header{
     height: 9rem;
-    width: 30rem;
+    width: 0rem;
 }
 .header-nav{
     flex-direction: column;
