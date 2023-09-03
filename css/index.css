@@ -21,6 +21,7 @@ header{
     color: white;
     position: fixed;
     font-family: 'Hind', sans-serif;
+    z-index: 999;
 }
 .header-nav{
     height: 100%;
@@ -43,13 +44,13 @@ header{
     height: 100%;
     width: 60%;
     margin-top: 3.2rem;
-    margin-left: 14rem;
+    margin-left: 10rem;
 }
 .header-enlace{
     color: white;
     text-decoration: none;
     font-size: small;
-    margin-right: 1.8rem;
+    margin-right: 1rem;
     cursor: pointer;
     text-align: center;
     padding-left: 1rem;
@@ -107,8 +108,12 @@ h1{
     width: 20rem;
     margin-top: 2rem;
     border: 0.2rem solid rgb(255, 255, 255);
+    transition: transform 0.3s ease;
 }
-
+.main-img:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
 
 /* seccion siguiente */
 
@@ -161,6 +166,7 @@ h1{
 .sedetexto{
     text-align: center;
     font-size: 1rem;
+    margin-top: 1.5rem;
 }
 
 
@@ -350,6 +356,12 @@ footer{
 .logito-foot{
     height: 4rem;
     width: 20rem;
+    transition: transform 0.3s ease;
+}
+
+.logito-foot:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .img_creditos{
@@ -364,6 +376,10 @@ footer{
     max-width: 120rem;
     margin: 0 auto;
 }
+
+
+
+
 
 .footer{
     background-color: #000000;
@@ -436,10 +452,13 @@ footer{
     color: white;
     transition: all .5s ease;
     padding: 1rem;
+    transition: transform 0.3s ease;
 }
 
 .social_links a:hover{
     background-color: #003e088d;
+    transform: translateY(-10px);
+    cursor: pointer;
 }
 .redes{
     display: flex;

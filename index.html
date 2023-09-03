@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNIN</title>
+    <meta name="description" content="Descubre una educación de clase mundial en Universidad innovadora. Nuestra universidad ofrece una amplia gama de programas académicos de alta calidad, impartidos por profesores altamente calificados y comprometidos con tu éxito. Explora oportunidades de aprendizaje en un entorno diverso y estimulante que fomenta la innovación, la investigación y el crecimiento personal. Únete a una comunidad global de estudiantes apasionados y prepárate para un futuro brillante en Universidad innovadora">
+    <meta name="keywords" content="Programas académicos, Investigación académica,Profesores calificados,Comunidad estudiantil diversa,Innovación educativa,Campus universitario,Experiencia estudiantil,Oportunidades de carrera,Internacionalización,Valores institucionales,Ubicación geográfica">
+    <title>Inicio-UNIN</title>
     <!-- google font para fuentes de letras podes comentar y despues solo copias y pegas -->
     <!-- LETRA HIND -->
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,300&family=Comfortaa:wght@700&family=Hind:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="shortcut icon" href="img/logo_size.jpg" type="image/x-icon" alt="logo de universidad">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/index.css">
 <!-- LETRA  -->
 </head>
 <body>
     <header>
         <nav class="header-nav">
-            <img class="header-logo" src="img/logo2.jpg" alt="logo de universidad innovadora">
+            <a href="#volverainicio"><img class="header-logo" src="./img/logo2.jpg" alt="logo_size_invert"></a>
             <ul class="header-lista">
+                <li class="l"><a class="header-enlace"href="#volverainicio">INICIO</a></li>
                 <li class="l"><a class="header-enlace"href="./pages/carreras.html">CARRERAS</a></li>
                 <li class="l"><a class="header-enlace" href="./pages/maestrias y posgrados.html">MAESTRIAS Y POSGRADOS</a></li>
                 <li class="l"><a class="header-enlace" href="./pages/cursos.html">CURSOS</a></li>
@@ -27,7 +35,7 @@
             </ul>
         </nav>
     </header>
-    <main class="main-todo">
+    <main id="volverainicio" class="main-todo">
         <!-- SEDES -->
         <section class="main-principio">
             <div class="main-titulos">
@@ -36,11 +44,11 @@
             <section>
                 <h1><strong>UNIVERSIDAD INNOVADORA</strong></h1>
             </section>
-            <div class="main-imagenes">
+            <div  class="main-imagenes">
                 <!-- agregar imagenes de la uni -->
-                <img class="main-img" src="img/edificiodenoche.png" alt="un edificio en el bos">
-                <img class="main-img" src="img/estudiando.png" alt="">
-                <img class="main-img" src="img/unienlaplaya.png" alt="">
+                <img class="main-img" src="img/edificiodenoche.png" alt="un edificio en un bosque, con nieve alrededor y de 10 pisos">
+                <img class="main-img" src="img/estudiando.png" alt="personas sentadas en diferentes mesas, estudiando, a su costado una gran ventana">
+                <img class="main-img" src="img/unienlaplaya.png" alt="edificio en el medio de la arena, en una playa, detras de el un medano ">
             </div>
         </section>
         <section>
@@ -49,15 +57,15 @@
             </div>
             <article class="letrablanca">
                 <div class="sedes">
-                    <div class="sedesfondo">
-                        <h3 class="titulosede">SEDE COSTA</h3>
-                        <img class="sede1" src="img/sedecosta.png" alt="sede costa">
-                        <p class="sedetexto">Conoce nuestro campus ubicado en la costa argentina</p>
+                    <div data-aos="fade-down"  class="sedesfondo">
+                        <h3 data-aos="fade-down" class="titulosede">SEDE COSTA</h3>
+                        <img data-aos="flip-down" class="sede1" src="img/sedecosta.png" alt="nuestra sede costa, la vista es desde dentro, proporciona la vista de un edificio de 12 pisos, color arena, con personas en el patio, estdiando">
+                        <p data-aos="fade-down" class="sedetexto">Conoce nuestro campus ubicado en la costa argentina</p>
                     </div>
-                    <div class="sedesfondo">
-                        <h3 class="titulosede">SEDE ANDINA</h3>
-                        <img class="sede1" src="img/sedeandina.png" alt="sede andina">
-                        <p class="sedetexto">Conoce nuestro campus ubicado en la comarca andina</p>
+                    <div  class="sedesfondo">
+                        <h3 data-aos="fade-down" class="titulosede">SEDE ANDINA</h3>
+                        <img data-aos="flip-down" class="sede1" src="img/sedeandina.png" alt="nustra sede andina, con una vista desde afuera, hay un gran bosque verde atras del edificio el cual cuenta con 6 pisos, todos con vidrios muy grandes y color gris">
+                        <p data-aos="fade-down" class="sedetexto">Conoce nuestro campus ubicado en la comarca andina</p>
                     </div>
                 </div>
             </article>
@@ -69,23 +77,23 @@
             </div>
             <article class="cuerpoevento letrablanca">
                 <div class="imgevento">
-                    <img class="imgeventos" src="img/estudiando4.png" alt="visita guiada para conocer a UNIN">
-                    <div class="h3-p">
+                    <img data-aos="fade-down-right"  class="imgeventos" src="img/estudiando4.png" alt="trata de una gran vista desde dentro de nuestra sede, un gran espacio donde se realizan las reuiniones, varias personas en mesas, esta pintado de blanco y vidrio en el techo">
+                    <div data-aos="fade-down-left" class="h3-p">
                         <h3 class="h3-evento">VISITAS GUIADAS POR NUESTROS CAMPUS</h3>
                         <!-- agregar texto real -->
                         <p class="pdeevento">¡¡Veni a conocer UNIN, con la compañia de nuestros profesionales, vivi una experiencia unica en nuestras 2 sedes, te esperamos r adipisicing elit. Possimus, quaerat? Quia velit quod laudantium a fugit, non corporis sequi maiores cumque impedit numquam quis autem repellendus veritatis. Maxime, animiidwbjwbhkwhbdkexcepturi?!!</p>
                     </div>
                 </div>
-                <div class="imgevento">
-                    <img class="imgeventos" src="img/estudiando2.png" alt="Reuniones informativas para carreras">
-                    <div class="h3-p">
+                <div data-aos="fade-down" class="imgevento">
+                    <img data-aos="fade-down-right" class="imgeventos" src="img/estudiando2.png" alt="trata de una gran vista desde dentro de nuestra sede, un gran espacio donde se realizan descanso en el aire libre, varias personas en mesas, de azul">
+                    <div data-aos="fade-down-left" class="h3-p">
                         <h3 class="h3-evento">REUNIONES INFORMATIVAS SOBRE CARRERAS DE GRADO</h3>
                         <p class="pdeevento" >¡¡Veni a participar de nuestras reuniones informativaspara impulsar tus conocimientos junto a UNIN r adipisicing elit. Possimus, quaerat? Quia velit quod laudantium a fugit, non corporis sequi maiores cumque impedit numquam quis autemwednkjebdwkjebdkewj rep!!</p>
                     </div>
                 </div>
-                <div class="imgevento">
-                    <img class="imgeventos" src="img/estudiando3.png" alt="Reuniones informativas para carreras y posgrados">
-                    <div class="h3-p">
+                <div data-aos="fade-down" class="imgevento">
+                    <img data-aos="fade-down-right" class="imgeventos" src="img/estudiando3.png" alt="trata de una gran vista desde dentro de nuestra sede, un gran espacio donde se realizan las reuiniones, varias personas en mesas, esta pintado de blanco y vidrio en el techo">
+                    <div data-aos="fade-down-left" class="h3-p">
                         <h3 class="h3-evento">REUNIONES INFORMATIVAS SOBRE NUESTRAS MAESTRIAS Y POSGRADOS</h3>
                         <p class="pdeevento">¡¡Participa de nuestras reuniones informativas para poder potenciar tus conocimientos junto a UNIN, te esperamos Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit nostrum fugiat? Est non corrupti reprehenderit quaerat accusantium, sit cdfsdfsfd!!</p>
                     </div>
@@ -99,29 +107,28 @@
             </article>
             <article class="sedesalumnos">
                 <!-- INSERTAR H3 -->
-                <div class="alumno">
+                <div data-aos="fade-down" class="alumno">
                     <h2>ALUMNOS SEDE ANDINA</h2>
                 </div>
-                <div class="alumno2">
+                <div data-aos="fade-down" class="alumno2">
                     <h2>ALUMNOS SEDE COSTA</h2>
                 </div>
             </article>
             <article class="art-alumnos2">
-                <div class="img-2">
-                    <!-- IMAGENES AL ALT -->
+                <div data-aos="fade-down" class="img-2">
                     <div class="div-alumnos">
-                        <img class="img-alumnos" src="img/estudiantes/estudiantesbosque2.png" alt="imagenes de alumnos, los cuales ">
+                        <img class="img-alumnos" src="img/estudiantes/estudiantesbosque2.png" alt="muestra un grupo de personas mirando la camara, estan en un gran bosque donde todo es verde, son mujeres y hombres, se encuentran en un camino ">
                     </div>
                     <div>
-                        <img class="img-alumnos " src="img/estudiantes/estudiantesenbosque.png" alt="2">
+                        <img class="img-alumnos " src="img/estudiantes/estudiantesenbosque.png" alt="muestra un grupo de personas mirando la camara, estan en un gran bosque donde todo es verde, son mujeres y hombres, se encuentran en un camino">
                     </div>
                 </div>
-                <div class="img-3">
+                <div data-aos="fade-down" class="img-3">
                     <div class="div-alumnos">
-                        <img class="img-alumnos" src="img/estudiantes/estudiantescosta.png" alt="4">
+                        <img class="img-alumnos" src="img/estudiantes/estudiantescosta.png" alt=" muestra un grupo de personas en la playa, justo en el medio de la arena, son chicos y chicas los cuales esta nmirando la camara">
                     </div>
                     <div>
-                        <img class="img-alumnos" src="img/estudiantes/estudiantescosta2.png" alt="5">
+                        <img class="img-alumnos" src="img/estudiantes/estudiantescosta2.png" alt="muestra un grupo de personas en la playa, justo en el medio de la arena, son chicos y chicas los cuales esta nmirando la camara">
                     </div>
                 </div>
             </article>
@@ -132,27 +139,27 @@
                 <h2><strong>CONOCE MAS</strong></h2>
             </article>
             <article>
-                <div class="cococe-tityimg c1">
+                <div data-aos="fade-down" class="cococe-tityimg c1">
                     <h3 class="h3-conoce c1">ESCUELA DE IDIOMAS</h3>
                     <h3 class="h3-conoce c2">ARTE CONTEMPORANEO</h3>
                 </div>
-                <div class="cococe-tityimg">
-                    <img class="img-cococe" src="img/conocemas/Lenguaje.png" alt="">
-                    <img class="img-cococe" src="img/conocemas/artecontemporaneo.png" alt="">
+                <div data-aos="fade-down" class="cococe-tityimg">
+                    <img class="img-cococe" src="img/conocemas/Lenguaje.png" alt="imagen de una casa hecha de hojas de un libro, con una puerta y se encuentra pintado de rojo">
+                    <img class="img-cococe" src="img/conocemas/artecontemporaneo.png" alt="imagen de arte abstracto con formas triangulares en su mayoria, con colores como rojo, amarillo y celeste">
                 </div>
-                <div class="cococe-tityimg">
+                <div data-aos="fade-down" class="cococe-tityimg">
                     <p class="p-cococe ">estudiantes que quieran aprender el idiomas o perfeccionar su nivel de habla. Son dictados por docentes de la Universidad.</p>
                     <p class="p-cococe">Contemporáneo que contribuye con una formación académica integral dentro del corazón de la Universidad.</p>
                 </div>
-                <div class="cococe-tityimgdos">
+                <div data-aos="fade-down" class="cococe-tityimgdos">
                     <h3 class="h3-conoce c3">UNIN INVESTIGACIONES</h3>
                     <h3 class="h3-conoce c4">INTERCAMBIOS</h3>
                 </div>
-                <div class="cococe-tityimg">
-                    <img class="img-cococe" src="img/conocemas/lupa.png" alt="">
-                    <img class="img-cococe" src="img/conocemas/intercambios.png" alt="">
+                <div data-aos="fade-down" class="cococe-tityimg">
+                    <img class="img-cococe" src="img/conocemas/lupa.png" alt="hay un fondo donde la mitad es color solido azul, la otra es solido violeta y en el medio de la union de estos hay una lupa con el mango de madera">
+                    <img class="img-cococe" src="img/conocemas/intercambios.png" alt="grupo de 4 personas camianando de espaldas, 2 niños y 2 niñas, se encuentran en el aire libre y debajo de unos arboles naranjas, po que es otoño">
                 </div>
-                <div class="cococe-tityimg">
+                <div data-aos="fade-down" class="cococe-tityimg">
                     <p class="p-cococe"> Se realizan con la de de preparar individuos con habilidades y conocimientos nuevos que tengan una formación académica adecuada en un mundo en acelerado desarrollo.</p>
                     <p class="p-cococe">Les otorga a los estudiantes la posibilidad de interactuar con otras metodologías de enseñanza y aprender de las mismas. Apertura a nuevos horizontes culturales, lingüísticos, académicos y sociales. </p>
                 </div>
@@ -163,7 +170,7 @@
     <footer class="footer">
         <div class="container">
             <div class="img_creditos2">
-                <img class="logito-foot" src="./img/logo2.jpg" alt="sponsores">
+                <img class="logito-foot" src="./img/logo2.jpg" alt="logo de la universidad innovadora">
             </div>
             
             <div class="footer_row">
@@ -171,8 +178,8 @@
                     <h4 class="ubii">UBICACIÓN</h4>
                     <div class="footer_ubi">
                         <ul>
-                            <li><a class="aubi" href="https://goo.gl/maps/QyLWmtFMe3qadDUr6"> <img src="./img/ubi.png" alt="">SEDE ANDINA</a></li>
-                            <li><a class="aubi" href="https://goo.gl/maps/tam86D49u7ZPcnpTA"> <img src="./img/ubi.png" alt="">SEDE COSTA</a></li>
+                            <li><a class="aubi" href="https://goo.gl/maps/QyLWmtFMe3qadDUr6"> <img src="./img/ubi.png" alt="logo de unicacion el cual es negro la pua y blanco el fondo">SEDE ANDINA</a></li>
+                            <li><a class="aubi" href="https://goo.gl/maps/tam86D49u7ZPcnpTA"> <img src="./img/ubi.png" alt="logo de unicacion el cual es negro la pua y blanco el fondo">SEDE COSTA</a></li>
                         </ul>
                     </div>
                     
@@ -208,10 +215,15 @@
                 </div>
             </div>
             <div class="img_creditos">
-                <img src="./img/creditos.png" alt="sponsores">
+                <img src="./img/creditos.png" alt="sponsores de la universidad innovadora, se encentran los logos de la cruz roja, fundacion alcala y de una universidad">
             </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
