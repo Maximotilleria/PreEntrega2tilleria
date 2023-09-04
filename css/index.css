@@ -535,6 +535,11 @@ form ::placeholder {
 }
 .ds{
     display: flex;
+    transition: transform 0.3s ease;
+}
+.ds:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
 }
 .titulo-1{
     justify-content: center;
@@ -544,7 +549,7 @@ form ::placeholder {
     background-image: url('../img/diseño.png');
     background-position: center;
     border: 2px solid white;
-    font-size: 2rem;
+    
 }
 
 
@@ -604,11 +609,13 @@ form ::placeholder {
     padding-bottom: 6rem;
     background-image: url('../img/dolares.png');
     background-position: center;
-    font-size: 2rem;
     margin-top: 10rem;
     margin-bottom: 4rem;
     border: 2px solid white;
     
+}
+.h2-facul{
+    font-size: 3.5rem;
 }
 
 .c-4{
@@ -776,7 +783,6 @@ form ::placeholder {
 .p-elegirnos{
     display: flex;
     justify-content: center;
-    font-size: 2rem;
     margin-bottom: 4rem;
     background-image: url('../img/arenayplantita.png');
     background-position: 100%;
@@ -784,6 +790,15 @@ form ::placeholder {
     padding-top: 4rem;
     padding-bottom: 4rem;
     border-bottom: 2px solid white;
+    transition: transform 0.3s ease;
+}
+
+.p-elegirnos:hover{
+    transform: scale(1.1); 
+}
+
+.h1_elegirnos{
+    font-size: 2rem;
 }
 
 .art-razones{
@@ -819,7 +834,17 @@ form ::placeholder {
 .fl-uno{
     display: flex;
     justify-content: center;
+    transition: transform 0.3s ease;
 }
+
+
+.fl-uno:hover{
+    transform: scale(1.1);
+}
+.h1-nuestrosprogramas{
+    font-size: 2rem;
+}
+
 .maestria{
     padding: 4rem 0 4rem 0;
     background-image: url('../img/posgrado.png');
@@ -921,6 +946,11 @@ form ::placeholder {
     display: flex;
     justify-content: space-evenly;
     margin-top: 4rem;
+    transition: transform 0.3s ease;
+}
+
+.igm:hover{
+    transform: scale(1.1);
 }
 
 .imgcurs{
@@ -1025,7 +1055,7 @@ form ::placeholder {
         flex-direction: column;
         align-items: center;
     }
-    .rh2{
+    .h1-nuestrosprogramas{
         font-size: 1rem;
         
     }
@@ -1408,7 +1438,7 @@ header{
         flex-direction: column;
         align-items: center;
     }
-    .rh2{
+    .h1-nuestrosprogramas{
         font-size: 1.5rem;
         
     }
