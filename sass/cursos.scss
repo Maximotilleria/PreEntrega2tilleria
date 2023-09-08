@@ -1,0 +1,52 @@
+.main-todo2 {
+    background-color: #000000;
+    color: white;
+    padding-top: 8rem;
+
+    .sdecur {
+        .fl-uno {
+            display: flex;
+            justify-content: center;
+            transition: transform 0.3s ease;
+
+            .h1-nuestrosprogramas {
+                font-weight: bold;
+            }
+        }
+
+        .np {
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+
+            .pnp {
+                text-align: justify;
+                width: 55rem;
+                margin-left: 15rem;
+                line-height: 2rem;
+
+                .rp {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .igm {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 4rem;
+            transition: transform 0.3s ease;
+
+            .imgcurs {
+                height: 12rem;
+                width: 14rem;
+                border: 2px solid white;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+

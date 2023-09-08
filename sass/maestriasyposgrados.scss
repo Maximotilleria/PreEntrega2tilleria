@@ -1,0 +1,192 @@
+$colornegro:#000000;
+$veinterem: 20rem;
+$unrem:1rem;
+$cincorem: 5rem;
+$solidwhite:2px solid white;
+$mayuscula: uppercase;
+
+
+@mixin titulodemaes {
+    background-position: 100%;
+    background-size: cover;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+// Estilos para .p-elegirnos
+
+
+.main-todo2 {
+    background-color: $colornegro;
+    color: white;
+    padding-top: 8rem;
+
+    .sectiondeelegirnos {
+        .p-elegirnos {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 4rem;
+            background-image: url('../img/arenayplantita.png');
+            @include titulodemaes;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            .h1_elegirnos {
+                font-size: 2rem;
+            }
+        }
+
+        .art-razones {
+            display: flex;
+            justify-content: space-evenly;
+            font-size: $unrem;
+        }
+
+        .p-raz {
+            height: 10rem;
+            width: 25rem;
+            margin-left: 3rem;
+            margin-top: 2rem;
+        }
+
+        .p-raza {
+            height: 10rem;
+            width: $veinterem;
+            margin-right: $unrem;
+            margin-top: 2rem;
+        }
+
+        .list {
+            margin-bottom: $unrem;
+        }
+    }
+
+    // Estilos para .sectiondemae
+    .sectiondemae {
+        .fl-uno {
+            display: flex;
+            justify-content: center;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .h1-nuestrosprogramas {
+            font-size: 2rem;
+        }
+
+        .maestria {
+            padding: 4rem 0 4rem 0;
+            background-image: url('../img/posgrado.png');
+            @include titulodemaes;
+            margin-top: 4rem;
+        }
+
+        .titfle {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .titul {
+            margin-top: 4rem;
+            text-transform: $mayuscula;
+            margin-bottom: $unrem;
+        }
+
+        .direccom {
+            margin-right: $unrem;
+        }
+
+        .pff {
+            text-align: justify;
+            height: 8rem;
+            width: $veinterem;
+        }
+
+        .tituldos {
+            margin-top: 8rem;
+            text-transform: $mayuscula;
+            margin-bottom: $unrem;
+        }
+
+        .direcrec {
+            width: 22rem;
+            text-align: center;
+        }
+
+        .titultres {
+            margin-top: 3rem;
+            text-transform: $mayuscula;
+            margin-bottom: $unrem;
+        }
+    }
+
+    .sectdemaes {
+        .posgra {
+            padding: 4rem 0 4rem 0;
+            background-image: url('../img/posgrado.png');
+            @include titulodemaes;
+            margin-top: 10rem;
+            margin-bottom: 4rem;
+            display: flex;
+            justify-content: center;
+            .mae {
+                font-size: 2rem;
+                
+            }
+        }
+
+        
+
+        .esped {
+            text-transform: $mayuscula;
+        }
+
+        .mkt {
+            margin-right: 2rem;
+        }
+
+        .espe {
+            margin-top: 6rem;
+        }
+
+        .fin {
+            margin-left: 6rem;
+            margin-right: 6rem;
+        }
+
+        .titfle {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .arquitectura {
+            text-decoration: none;
+        }
+
+        .pff {
+            text-align: justify;
+            height: 8rem;
+            width: $veinterem;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+// Estilos para .sectdemaes

@@ -1,0 +1,153 @@
+
+
+
+$colornegro:#000000;
+$veinterem: 20rem;
+$unrem:1rem;
+$cincorem: 5rem;
+$solidwhite:2px solid white;
+$mayuscula: uppercase;
+
+
+.main-todo3 {
+    background-color: $colornegro;
+    color: white;
+    padding-top: 8rem;
+
+    .ds {
+        display: flex;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+
+    .titulo-1 {
+        justify-content: center;
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+        margin-bottom: 4rem;
+        background-image: url("../img/diseño.png");
+        background-position: center center;
+        border: $solidwhite;
+    }
+
+    /* primera seccion */
+    .ds2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .c-1 {
+        font-size: $unrem;
+        text-transform: $mayuscula;
+        margin-left: 3rem;
+        margin-bottom: $unrem;
+        margin-top: 2rem;
+    }
+
+    .p-1 {
+        height: $cincorem;
+        width: $veinterem;
+        text-align: justify;
+    }
+
+    /* segunda seccion */
+    .s2 {
+        margin-top: 4rem;
+    }
+
+    .c-2 {
+        font-size: $unrem;
+        text-transform: $mayuscula;
+        margin-left: 2rem;
+        margin-bottom: $unrem;
+        margin-top: 2rem;
+    }
+
+    /* tercera seccion */
+    .c-3 {
+        font-size: $unrem;
+        text-transform: $mayuscula;
+        margin-bottom: $unrem;
+        margin-top: 11rem;
+    }
+}
+
+/* MAIN2 */
+/* primera seccion */
+.titulo-2 {
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url("../img/dolares.png");
+    background-position: center center;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    border: $solidwhite;
+}
+
+.h2-facul {
+    font-size: 3.5rem;
+}
+
+.c-4 {
+    font-size: $unrem;
+    text-transform: $mayuscula;
+    margin-bottom: $unrem;
+    margin-left: 2rem;
+}
+
+.p-2,
+.p-3 {
+    height: $cincorem;
+    width: $veinterem;
+    text-align: justify;
+    margin-bottom: 6rem;
+}
+
+.c-5{
+    font-size: $unrem;
+    text-transform: $mayuscula;
+    margin-bottom: $unrem;
+    margin-top: 4rem;
+}
+.c-6 {
+    font-size: $unrem;
+    text-transform: $mayuscula;
+    margin-bottom: $unrem;
+    margin-top: 4rem;
+    margin-left: 6rem;
+}
+
+/* TERCERA FACULTAD */
+.titulo-3 {
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-image: url("../img/ciencias.png");
+    background-position: center center;
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    border: $solidwhite;
+}
+
+.c-7,
+.c-8,
+.c-9 {
+    font-size: $unrem;
+    text-transform: $mayuscula;
+    margin-bottom: $unrem;
+    margin-left: 2rem;
+
+    &.c-8 {
+        margin-left: 3rem;
+    }
+
+    &.c-9 {
+        margin-top: 4rem;
+    }
+}

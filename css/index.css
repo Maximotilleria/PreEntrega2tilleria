@@ -1,2302 +1,609 @@
-*{
-    padding: 0;
-    margin: 0;
-    list-style: none;
+@charset "UTF-8";
+.main-todo3 {
+  background-color: #000000;
+  color: white;
+  padding-top: 8rem;
+  /* primera seccion */
+  /* segunda seccion */
+  /* tercera seccion */
+}
+.main-todo3 .ds {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+.main-todo3 .ds:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.main-todo3 .titulo-1 {
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+  margin-bottom: 4rem;
+  background-image: url("../img/diseño.png");
+  background-position: center center;
+  border: 2px solid white;
+}
+.main-todo3 .ds2 {
+  display: flex;
+  justify-content: space-around;
+}
+.main-todo3 .c-1 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.main-todo3 .p-1 {
+  height: 5rem;
+  width: 20rem;
+  text-align: justify;
+}
+.main-todo3 .s2 {
+  margin-top: 4rem;
+}
+.main-todo3 .c-2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.main-todo3 .c-3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 11rem;
 }
-html{
-    font-size: 62,5;
-    font-family: sans-serif;
-}
-
-
-
-/* INDEX */
-/* estilo al header */
-
-header{
-    background-color: #000000;
-    height: 8.1rem;
-    width: 100%;
-    font-size: small;
-    color: white;
-    position: fixed;
-    font-family: 'Hind', sans-serif;
-    z-index: 999;
-}
-.header-nav{
-    height: 100%;
-    display: flex;
-    text-align: center;
-    border-bottom: 0.1rem solid rgb(255, 255, 255);
-}
-.header-logo{
-    height: 4rem;
-    width: 17rem;
-    margin-left: 6rem;
-    margin-top: 1.1rem;
-    margin-right: 8rem;
-    padding-top: 1.5rem;
-}
-
-.header-lista{
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    width: 60%;
-    margin-top: 3.2rem;
-    margin-left: 10rem;
-}
-.header-enlace{
-    color: white;
-    text-decoration: none;
-    font-size: small;
-    margin-right: 1rem;
-    cursor: pointer;
-    text-align: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-.header-enlace:hover{
-    background-color: rgb(36, 35, 42);
-    color: rgb(255, 255, 255);
-    padding-top:3rem;
-    padding-bottom:3.2rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border: 1px solid white;
-    text-align: center;
-}
-
-
-/* MAIN   */
-/* seccion inicial */
-/* SEDES */
-
-
-.main-todo{
-    background-color: #000000;
-    color: white;
-    font-family: 'Hind', sans-serif;
-}
-.main-principio{
-    background-color: #000000;
-    height: 38rem;
-    padding-bottom: 6rem;
-}
-.main-titulos{
-    justify-content: flex-start;
-    padding-top: 14rem;
-    padding-left: 1rem;
-    padding-bottom: 2.5rem;
-}
-.main-h5{
-    margin-left: 5.5rem;
-    color: white;
-    
-}
-h1{
-    font-size: 3.5rem;
-    color: white;
-    margin-left: 4rem;
-}
-.main-imagenes{
-    display: flex;
-    justify-content: space-evenly;
-}
-.main-img{
-    height: 20rem;
-    width: 20rem;
-    margin-top: 2rem;
-    border: 0.2rem solid rgb(255, 255, 255);
-    transition: transform 0.3s ease;
-}
-.main-img:hover{
-    transform: scale(1.1); 
-    cursor: pointer;
-}
-
-/* seccion siguiente */
-
-
-.main-sede{
-    font-size: 1.5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-.h2-main{
-    text-align: center;
-    font-size: 3rem;
-    background-image: url(../img/fondoarenaypinitos.png);
-    background-size: contain;
-    background-position: center center;
-    border-top: 0.3rem solid white;
-    border-bottom: 0.3rem solid white;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-    margin-top: 14rem;
-    color: white;
-}
-.letrablanca{
-    color: white;
-}
-.sedes{
-    display: flex;
-    justify-content: space-around;
-    margin: 1rem;
-    margin-top: 5rem;
-}
-.sedesfondo{
-    text-align: center;
-    margin: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 1.5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-}
-.titulosede{
-    margin-bottom: 2.5rem;
-    font-size: 2rem;
-    padding-bottom: 1.5rem;
-}
-.sede1{
-    height: 25rem;
-    width: 25rem;
-    border: 2px solid rgb(255, 255, 255);
-}
-.sedetexto{
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 1.5rem;
-}
-
-
-/* EVENTOS */
-
-
-.eventotitulo{
-    text-align: center;
-    font-size: 2rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    margin-top: 5rem;
-    border-top:  2px solid white;
-    border-bottom: 2px solid white;
-    background-image: url(../img/fondoedificio.png);
-    background-size: contain;
-    background-position: center center;
-    color: white;
-}
-.cuerpoevento{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-.imgevento{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4rem;
-}
-.imgeventos{
-    height: 15rem;
-    width: 18rem;
-    border: 2px solid rgb(255, 255, 255);
-}
-.h3-p{
-    text-align: justify center;
-    height: 15rem;
-    width: 20rem;
-    margin-left: 2.5rem; 
-}
-.h3-evento{
-    font-size: 1.2rem;
-    width: 25rem;
-}
-.pdeevento{
-    font-size: 0.5 ;
-    margin-top: 0.5rem;
-    text-align: justify;
-}
-
-
-/* NUESTROS ALUMNOS */
-
-
-.art-alumnos{
-    font-size: 2rem;
-    color: white;
-}
-.h2-alumnos{
-    text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-    background-image: url('../img/fondoestudiantes.png');
-    background-size: contain;
-}
-.sedesalumnos{
-    justify-content: space-between;
-    color: white;
-    font-size: 1rem;
-    display: flex;
-    margin-top: 5rem;
-}
-.alumno{
-    margin-left: 8rem ;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-}
-.alumno2{
-    margin-right: 10rem ;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    border-right: 2px solid white;
-    border-left: 2px solid white;
-}
-.art-alumnos2{
-    display: flex;
-    justify-content: space-around;
-}
-.img-2{
-    display: flex;
-}
-.div-alumnos{
-    margin-right: 2rem;
-}
-.img-alumnos{
-    height: 15rem;
-    width: 15rem;
-    margin-top: 4rem;
-    border-bottom: 1rem solid white;
-    border-top: 1rem solid white;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-
-}
-.img-3{
-    display: flex;
-}
-
-
-/* CONOCE MAS */
-
-
-.h2-cococemas{
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    border-bottom: 2px solid white;
-    border-top: 2px solid white;
-    background-image: url('../img/fondoflores.png');
-    background-size: contain;
-    background-position: center center;
-    color: white;
-    font-size: 2rem;
-}
-.cococe-tityimg{
-    display: flex;
-    justify-content: space-evenly;
-}
-.cococe-tityimgdos{
-    display: flex;
-}
-.h3-conoce{
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
-    
-}
-
-.c1{
-    margin-left: 0.5rem;
-}
-.c2{
-    margin-left: 1.5rem;
-} 
-.c3{
-    margin-left: 15rem;
-}
-.c4{
-    margin-left: 19rem;
-} 
-.img-cococe{
-    height: 20rem;
-    width: 20rem;
-    border: 2px solid white;
-    margin-top: 1rem;
-}
-.p-cococe{
-    height: 10rem;
-    width: 20rem;
-    text-align: justify;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    
-}
-
-
-/* FOOTER */
-
-footer{
-    box-sizing: border-box;
-    text-transform: capitalize;
-}
-.img_creditos2{
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 4rem;
-    margin-bottom: 3rem;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-.logito-foot{
-    height: 4rem;
-    width: 20rem;
-    transition: transform 0.3s ease;
-}
-
-.logito-foot:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.img_creditos{
-    display: flex;
-    justify-content: center;
-    padding-right: 4rem;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
-
-.container {
-    max-width: 120rem;
-    margin: 0 auto;
-}
-
-
-
-
-
-.footer{
-    background-color: #000000;
-    padding: 8rem 0;
-}
-
-.footer_row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-left: 4rem;
-}
-
-.footer_links{
-    width: 25%;
-    padding: 0 1.5rem;
-    margin: 1rem;
-}
-
-/* ubicacion */
-.footer-h4{
-    margin-left: 2rem;
-}
-.footer_ubi a img{
-    width: 2rem;
-    background-color: aliceblue;
-    border-radius: 50%;
-    padding: 0.2rem;
-    margin-right: 1rem;
-}
-.footer_ubi a img:hover{
-    background-color: #003e08;
-    transition: all .5s ease;
-}
-/* fin de ubi */
-
-.footer_links h4{
-    color: white;
-    font-size: 2rem;
-    margin-bottom: 2.5rem;
-    font-weight: 600;
-    border-bottom: 0.2rem solid #15751e;
-    padding-bottom: 1rem;
-    display: inline-block;
-}
-.footer_links ul li a{
-    font-size: 1.5rem;
-    font-weight: 300;
-    text-decoration: none;
-    color: white;
-    display: block;
-    margin-bottom: 1.5rem;
-    transition: all .3s ease;
-    
-}
-
-.footer_links ul li a:hover{
-    color: aqua;
-    padding-left: 0.6rem;
-}
-
-.social_links a{
-    display: inline-block;
-    height: 4rem;
-    width: 4rem;
-    background-color: #003e08;
-    margin: 0 1rem 1 rem 0;
-    line-height: 2rem;
-    border-radius: 50%;
-    color: white;
-    transition: all .5s ease;
-    padding: 1rem;
-    transition: transform 0.3s ease;
-}
-
-.social_links a:hover{
-    background-color: #003e088d;
-    transform: translateY(-10px);
-    cursor: pointer;
-}
-.redes{
-    display: flex;
-    justify-content: center;
-}
-.redes .footer_links{
-
-    width: 20rem
-}
-
-/* Contacto */
-/* input */
-input, button{
-    margin-bottom: 1rem;
-    display: block;
-    width: 14.5rem;
-    height: 2rem;
-    
-}
-form ::placeholder {
-    padding: 0.2rem 0 0.2rem 0.4rem;
-}
-/* botón */
-.btn{
-    background-color: #15751e;
-    border-radius: 1rem;
-    height: 3.5rem;
-    width: 15rem;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-.btn:hover{
-    background-color: #003e08;
-    transition: all .5s ease;
-}
-/* fin del botón */
-.detalles{
-    margin-top: 4rem;
-    color: white;
-    width: 20rem;
-}
-@media(max-width:9.9rem) {
-    .footer_row{
-        text-align: center;
-    }
-    .footer_links{
-        width: 100%;
-        margin-bottom: 3rem;
-    }
-    
-}
-.main-todo2{
-    background-color: #000000;
-    color: white;
-    padding-top: 8rem;
-}
-
-
-
-/* 
-2DA PAGINA  CARRERAS */
-
-
-
-/* MAIN */
-
-/* titulo */
-
-
-.main-todo3{
-    background-color: #000000;
-    color: white;
-    padding-top: 8rem;
-}
-.ds{
-    display: flex;
-    transition: transform 0.3s ease;
-}
-.ds:hover{
-    transform: scale(1.1); 
-    cursor: pointer;
-}
-.titulo-1{
-    justify-content: center;
-    padding-top: 4rem;
-    padding-bottom: 6rem;
-    margin-bottom: 4rem;
-    background-image: url('../img/diseño.png');
-    background-position: center;
-    border: 2px solid white;
-    
-}
-
-
-/* primera seccion */
-
-
-.ds2{
-    display: flex;
-    justify-content: space-around;
-}
-.c-1{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-}
-.p-1{
-    height: 5rem;
-    width: 20rem;
-    text-align: justify;
-}
-
-
-/* segunda seccion */
-
-
-.s2{
-    margin-top: 4rem;
-}
-.c-2{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-}
-
-
-/* tercera seccion */
-
-
-.c-3{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    margin-top: 11rem;
-}
-
 
 /* MAIN2 */
 /* primera seccion */
-
-.titulo-2{
-    justify-content: center;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    background-image: url('../img/dolares.png');
-    background-position: center;
-    margin-top: 10rem;
-    margin-bottom: 4rem;
-    border: 2px solid white;
-    
-}
-.h2-facul{
-    font-size: 3.5rem;
+.titulo-2 {
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../img/dolares.png");
+  background-position: center center;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+  border: 2px solid white;
 }
 
-.c-4{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-}
-.p-2{
-    height: 5rem;
-    width: 20rem;
-    text-align: justify;
-    margin-bottom: 6rem;
-}
-.p-3{
-    height: 5rem;
-    width: 20rem;
-    text-align: justify;
-    margin-bottom: 6rem;
-}
-.c-5{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    margin-top: 4rem;
-}
-.c-6{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
-    margin-top: 4rem;
+.h2-facul {
+  font-size: 3.5rem;
 }
 
+.c-4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.p-2,
+.p-3 {
+  height: 5rem;
+  width: 20rem;
+  text-align: justify;
+  margin-bottom: 6rem;
+}
+
+.c-5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.c-6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  margin-left: 6rem;
+}
 
 /* TERCERA FACULTAD */
-
-
-.titulo-3{
-    justify-content: center;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    background-image: url('../img/ciencias.png');
-    background-position: center;
-    font-size: 2rem;
-    margin-top: 10rem;
-    margin-bottom: 4rem;
-    border: 2px solid white;
-}
-.c-7{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-.c-8{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    margin-left: 3rem;
-    margin-top: 4rem;
-}
-.c-9{
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    margin-top: 4rem;
-}
-
-
-
-/* PAGINA CONTACTO */
-
-
-
-/* titulo de conta */
-.contacto{
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 8rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    background-image: url('../img/fondoedificio.png');
-    background-position: 100%;
-    background-size: contain;
-    border: 2px solid white;
-}
-.formulario{
-    height: 25rem;
-    padding: 2rem 5.5rem;
-    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
-    border-radius: 2rem;
-    text-align: center;
-    width: 34rem;
-    border: 2px solid white;
-    background-position: 100%;
-    margin-left: 25rem;
-    display: flex;
-    justify-content: center;
-}
-
-
-.form{
-    background-image:url('../img/fondoedificio.png') ;
-}
-
-.form-txt a{
-    color: #fdfdfd;
-    text-decoration: none;
-    margin-bottom: 2.5rem;
-    font-size: 0.8rem;
-}
-.form-txt:hover{
-    color: #555e56;
-}
-
-.imput-group{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-}
-.email{
-    margin-left: 1.2rem;
-}
-.nombre{
-    margin-left: 1.2rem;
-}
-.imput-group input{
-    background-color: #ffffff;
-    border-radius: 1rem;
-    height: 3rem;
-    
-}
-.imput , textarea{
-    width: 17rem;
-    max-height: 6rem;
-    overflow: hidden;
-    background-color: #ffffff;
-    padding: 2rem 1.4rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-radius: 1rem ;
-    color: #000000;
-}
-
-::placeholder{
-    color: #000000;
-}
-:focus{
-    outline: #a7b2a8;
-}
-.boton{
-    background-color: #15371c;
-    color: #000000;
-    cursor: pointer;
-    height: 4rem;
-    width: 6rem;
-    border-radius: 1rem;
-    margin-left: 5rem;
-}
-.boton:hover{
-    background-color: #bed1c0;
-}
-
-.form-txt{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-/* PAGINA DE MAESTRIAS Y POSGRADOS */
-
-
-/* titulo de elegirnos */
-
-.p-elegirnos{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4rem;
-    background-image: url('../img/arenayplantita.png');
-    background-position: 100%;
-    background-size: contain;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    border-bottom: 2px solid white;
-    transition: transform 0.3s ease;
-}
-
-.p-elegirnos:hover{
-    transform: scale(1.1); 
-}
-
-.h1_elegirnos{
-    font-size: 2rem;
-}
-
-.art-razones{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1rem;
-}
-
-.p-raz{
-    height:10rem;
-    width: 25rem;
-    margin-left: 3rem;
-    margin-top: 2rem;
-}
-.p-raza{
-    height:10rem;
-    width: 20rem;
-    margin-right: 1rem;
-    margin-top: 2rem;
-}
-
-.list{
-    margin-bottom: 1rem;
-}
-
-
-/* SECCION DE POSGRADO */
-
-
-/* seccion 1 */
-
-
-.fl-uno{
-    display: flex;
-    justify-content: center;
-    transition: transform 0.3s ease;
-}
-
-
-.fl-uno:hover{
-    transform: scale(1.1);
-}
-.h1-nuestrosprogramas{
-    font-size: 2rem;
-}
-
-.maestria{
-    padding: 4rem 0 4rem 0;
-    background-image: url('../img/posgrado.png');
-    background-position: 100%;
-    background-size: cover;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    margin-top: 4rem;
-}
-
-
-
-.titfle{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.titul{
-    margin-top: 4rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-.direccom{
-    margin-right: 1rem;
-}
-.pff{
-    text-align: justify;
-    height: 8rem;
-    width: 20rem;
-}
-.tituldos{
-    margin-top: 8rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-.direcrec{
-    width: 22rem;
-    text-align: center;
-}
-.titultres{
-    margin-top: 3rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-/* SECCION2 */
-
-.posgra{
-    padding: 4rem 0 4rem 0;
-    background-image: url('../img/posgrado.png');
-    background-position: 100%;
-    background-size: cover;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    margin-top: 10rem;
-    margin-bottom: 4rem;
-}
-.mae{
-    font-size: 2rem;
-}
-
-.esped{
-    text-transform: uppercase;
-}
-.mkt{
-    margin-right: 2rem;
-}
-.espe{
-    margin-top: 6rem;
-}
-
-.fin{
-    margin-left: 6rem;
-    margin-right: 6rem;
-}
-
-
-
-
-/* PAGINA DE CURSOS */
-
-
-/* seccion 1 */
-.np{
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    
-}
-
-.pnp{
-    text-align: justify;
-    width: 55rem;
-    margin-left: 15rem;
-    line-height: 2rem;
-}
-.igm{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 4rem;
-    transition: transform 0.3s ease;
-}
-
-.igm:hover{
-    transform: scale(1.1);
-}
-
-.imgcurs{
-    height: 12rem;
-    width: 14rem;
-    border: 2px solid white;
-}
-
-
-/* seccion 2 */
-
-.titulodecurso{
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    padding: 4rem 0 4rem 0;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    background-image: url('../img/ciber.jpg');
-    background-size: cover;
-}
-.h2cur{
-    font-size: 2rem
-    
-}
-.todo{
-    display: grid;
-    grid-template-areas: 
-    "item1 item2 item2"
-    "item1 item3 item3"
-    ;
-    width: 50rem;
-    margin-left: 15rem;
-}
-.artcu{
-    margin-top: 4rem;
-}
-
-.item1{
-    grid-area: item1;
-    margin-right: 1rem;
-}
-
-.item2{
-    grid-area: item2;
-    text-align: start;
-}
-.tdder{
-    font-size: 1.5rem;
-}
-
-.item3{
-    grid-area: item3;
-    text-align: justify;
-}
-.pdeitem3{
-    font-size: 1.28rem;
-    margin-top: 1rem;
-}
-.imgdecurso{
-    height: 15rem;
-    width: 25rem;
-    border: 1px solid white;
-}
-
-.titcrean{
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    padding: 4rem 0 4rem 0;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    background-image: url('../img/meto.jpg');
-    background-size: contain;
-}
-
-.h2decrea{
-    font-size: 2rem;
-    
-}
-.papre{
-    display: flex;
-    margin-left: 15rem;
-    text-align: justify;
-    width: 50rem;
-    line-height: 2rem;
-}
-
-
-
-/* APLICANDO RESPONSIVE MOBILE  */
-/* PAGINA DE CURSO Y PAGINA DE CONTACTO */
-
-@media (max-width:414px) {
-
-    /* PAGINA DE CURSOS RESPONSIVE */
-
-
-    .rsect{
-        flex-direction: column;
-        align-items: center;
-    }
-    .h1-nuestrosprogramas{
-        font-size: 1rem;
-        
-    }
-    .pnp{
-        margin-left: 0;
-        height: auto;
-        width: 22rem;
-        line-height: 1rem;
-    }
-    .rp{
-        margin-right: 1rem;
-        margin-left: 5rem;
-        font-size: 0.7rem;
-    }
-    .igm{
-        flex-direction: column;
-        align-items: center;
-    }
-    .imgcurs{
-        margin-bottom: 2rem;
-    }
-    .todo{
-        display: grid;
-        grid-template-areas: 
-        'item2 item2 item2'
-        'item1 item1 item1'
-        'item3 item3 item3'
-        ;
-        margin-left: 0rem;
-    }
-    .item2{
-        text-align: center;
-        width:20rem;
-        margin-left: 3rem;
-        margin-bottom: 1rem;
-    }
-    .item1{
-        margin-left: 3rem;
-        margin-right: 0;
-    }
-    .imgdecurso{
-        height: 10rem;
-        width: 20rem;
-    }
-    .pdeitem3{
-        font-size: 1rem;
-        width: 20rem;
-        margin-left: 3rem;
-        height: auto;
-    }
-    .papre{
-        text-align: center;
-        width: 22rem;
-        line-height: 1rem;
-        margin-right: 0rem;
-        margin-left: 2rem; 
-        font-size: 0.8rem;
-    }
-
-    /* RESPONSIVE PARA PAGINA DE CONTACTO */
-
-    .contacto{
-        margin-bottom: 8rem;
-        font-size: 2.5rem;
-    }
-
-    .formulario{
-        margin-left: 0;
-        width: 90%;
-        margin-left: 1.2rem;
-    }
-    .imput-group{
-        margin-left: 0rem;
-    }
-    .email{
-        margin-left: 1rem;
-    }
-    .nombre{
-        margin-left: 1rem;
-    }
-    .imput , textarea{
-        margin-bottom: 1rem;
-    }
-    
-
-
-
-    /* RESPONSIVE PARA PAGINA DE INICIO */
-    
-    
-    .main-titulos{
-        justify-content: flex-start;
-        padding-top: 11rem;
-        padding-left: 0rem;
-        padding-bottom: 1rem;
-    }
-    .main-h5{
-        margin-left: 2rem;
-        color: white;
-        
-    }
-    .h1-index{
-        margin-left: 2rem;
-        font-size: 3rem;
-        color: white;
-    }
-    .main-imagenes{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .main-img{
-        height: 15rem;
-        width: 15rem;
-        margin-top: 2rem;
-        border: 0.2rem solid rgb(255, 255, 255);
-        transition: transform 0.3s ease;
-    }
-    .main-img:hover{
-        transform: scale(1.1); 
-        cursor: pointer;
-    } 
-    
-    /* seccion siguiente */
-    
-    
-    .main-sede{
-        padding-top: 22rem;
-    }
-
-    .sedes{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 1rem;
-        margin-top: 5rem;
-    }
-    .sede1{
-        height: 15rem;
-        width: 15rem;
-    }
-    .sedesfondo{
-        text-align: center;
-        margin: 1rem;
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-        padding-left: 0rem;
-        padding-right: 0rem;
-    }
-    
-    
-    /* EVENTOS */
-    
-    .imgevento{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 0rem;
-    }
-
-    .cuerpoevento{
-        padding-top: 5rem;
-        padding-bottom: 5rem;
-    }
-
-    .imgeventos{
-        height: 15rem;
-        width: 15rem;
-        border: 2px solid rgb(255, 255, 255);
-        order: 2;
-    }
-    .h3-evento{
-        font-size: 1.2rem;
-        width: 25rem;
-        height: 2rem;
-        order: 1;
-    }
-    .pdeevento{
-        display: none;
-        font-size: 0 ;
-        margin-top: 0rem;
-        text-align: justify;
-    }
-    .h3-p{
-        margin-top: 3rem;
-        text-align: center;
-        height: 4rem;
-        width: 25rem;
-        margin-left: 0rem; 
-    }
-    
-    
-    /* NUESTROS ALUMNOS */
-    
-    
-    .sedesalumnos{
-        justify-content: center;
-        color: white;
-        font-size: 1rem;
-        display: flex;
-        margin-top: 4rem;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .alumno{
-        margin-left: 0rem ;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        border-right: none;
-        border-left: none;
-    }
-    .alumno2{
-        margin-right: 0rem ;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        border-right: none;
-        border-left: none;
-    }
-
-    .art-alumnos2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .img-2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-    .img-3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    } 
-    .img-alumnos{
-        height: 15rem;
-        width: 15rem;
-        margin-top: 4rem;
-        border: 2px solid white;
-    
-    }
-    .alumnosimagen1{
-        margin-top: 1rem;
-    }
-    .div-alumnos{
-        margin-right: 0rem;
-    }
-    
-    
-    /* CONOCE MAS */
-    
-    .img-cococe{
-        height: 10rem;
-        width: 10rem;
-        border: 2px solid white;
-        margin-top: 1rem;
-    }
-    .p-cococe{
-        display: none;
-        height: 10rem;
-        width: 20rem;
-        text-align: justify;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        
-    }
-    .h3-conoce{
-        border-bottom: 1px solid white;
-        border-top: 1px solid white;
-        font-size: 0.8rem;
-    }
-
-    
-    .c1{
-        margin-left: 0.5rem;
-    }
-    .c2{
-        margin-left: 1.5rem;
-    } 
-    .c3{
-        margin-left: 0rem;
-    }
-    .c4{
-        margin-left: 0rem;
-    } 
-    .cococe-tityimgdos{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-right: 1.5rem;
-        margin-top: 2rem;
-    }
-    
-
-/* RESPONSIVE DE CARRERAS */
-    .ds2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: none;
-    }
-    .c-1{
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-left: 0rem;
-        margin-bottom: 1rem;
-        margin-top: 2rem;
-    }
-    .arquitectura{
-        display: none;
-    }
-    .c-2{
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-left: 0rem;
-        margin-bottom: 1rem;
-        margin-top: 2rem;
-    }
-
-
-    
-    /* MAIN2 */
-    /* primera seccion */
-  
-    .h2-facul{
-        font-size: 2rem;
-        text-align: center;
-    }
-    
-    .c-4{
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        margin-left: 0rem;
-    }
-    .p-2{
-        height: 5rem;
-        width: 20rem;
-        text-align: justify;
-        margin-bottom: 6rem;
-    }
-    .p-3{
-        height: 5rem;
-        width: 20rem;
-        text-align: justify;
-        margin-bottom: 6rem;
-    }
-    .c-5{
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        margin-top: 4rem;
-    }
-    .c-6{
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        margin-left: 0rem;
-        margin-top: 4rem;
-    }
-    
-    
-    /* TERCERA FACULTAD */
-    
-    
-    .titulo-3{
-        justify-content: center;
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-        background-image: url('../img/ciencias.png');
-        background-position: center;
-        font-size: 2rem;
-        margin-top: 10rem;
-        margin-bottom: 4rem;
-        border: 2px solid white;
-    }
-    .c-7{
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        margin-left: 0rem;
-        margin-top: 2rem;
-    }
-    .c-8{
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        margin-left: 0rem;
-        margin-top: 4rem;
-    }
-    .c-9{
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        margin-top: 4rem;
-    }
-    
-    
-
-/* RESPONSIVE MOBILE DE MAESTRIAS Y POSGRADOS */
-
-
-
-
-
-
-
-.p-elegirnos{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 4rem;
-    background-image: url('../img/arenayplantita.png');
-    background-position: 100%;
-    background-size: contain;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    border-bottom: 2px solid white;
-    transition: transform 0.3s ease;
-}
-
-.p-elegirnos:hover{
-    transform: scale(1.1); 
-}
-
-.h1_elegirnos{
-    font-size: 2rem;
-  
-}
-h1{
-    font-size: 3.5rem;
-    color: white;
-    margin-left: 0rem;
-}
-
-.art-razones{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1rem;
-    
-}
-.estilo-razone{
-    text-align: center;
-
-}
-
-.p-raz{
-    height:10rem;
-    width: 15rem;
-    margin-left: 0rem;
-    margin-top: 2rem;
-}
-.p-raza{
-    height:10rem;
-    width: 15rem;
-    margin-right: 0rem;
-    margin-top: 2rem;
-}
-
-
-
-
-/* SECCION DE POSGRADO */
-
-
-/* seccion 1 */
-
-
-
-.maestria{
-    margin-top: 6rem;
-}
-
-.arquitectura{
-    display: none;
-}
-
-.titfle{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.titul{
-    margin-top: 4rem;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-}
-
-
-
-/* SECCION2 */
-
-.posgra{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-.mkt{
-    margin-right: 0rem;
-}
-
-
-
-    /* RESPONSIVE DEL FOOTER */
-
-    .logito-foot{
-        height: 3rem;
-        width: 18rem;
-    }
-    .footer{
-        flex-direction: column;
-    }
-    .img_creditos2{
-        padding-left: 0rem;
-        padding-left: 4rem;
-        margin-right: 0rem;
-    }
-    .footer_row{
-        flex-direction: column;
-        margin-left: 0.5rem;
-    }
-
-    /* UBI */
-    .ubii{
-        margin-left: 4rem;
-    }
-    .footer_ubi{
-        margin-left: 1.5rem;
-    }
-    .footer_ubi a{
-        width: 20rem;
-        padding-right: 4rem;
-    }
-
-    .footer_ubi a img{
-        width: 1.8rem;
-        background-color: aliceblue;
-        border-radius: 50%;
-        padding: 0.2rem;
-        margin-right: 1rem;
-    }
-
-    /* NAVEGACION */
-
-
-    .nav{
-        margin-left: 3rem;
-    }
-    .ulnav{
-        width: 15rem;
-        text-align: center;
-        
-    }
-    .ullo{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .aubi{
-        font-size: 0.5rem;
-    }
-
-    /* CONTACTO */
-
-    .fmr{
-        margin-left: 1rem;
-    }
-    .con{
-        margin-left: 3rem;
-    }
-    .inputfoo{
-        width: 10rem;
-        margin-left: 3rem;
-    }
-    .btn{
-        height: 2rem;
-        width: 8rem;
-        font-weight: 700;
-        font-size: 1rem;
-        margin-left: 4rem;
-    }
-    .img_creditos{
-        height: 5rem;
-        padding-left: 3rem;
-        margin-top: 2rem;
-    }
-
-    /* NAV */
-    .header-enlace:hover{
-        background-color: rgb(23, 60, 30);
-        color: rgb(255, 255, 255);
-        padding-top:0.5rem;
-        padding-bottom:0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        border: 1px solid white;
-        text-align: center;
-    }
-
-header{
-    height: 9rem;
-    width: 0rem;
-    position: absolute;
-}
-.header-nav{
-    flex-direction: column;
-    
-
-}
-.header-logo{
-    height: 3.5rem;
-    width: 20rem;
-    margin-left: 3rem;
-    margin-top: 1rem;
-    margin-right: 0rem;
-    padding-top: 0rem;
-}
-
-.header-lista{
-    height: 4rem;
-    width: 30rem;
-    margin-top: 1.5rem;
-    margin-left: 0rem;
-    padding-left: 0rem;
-    padding-right: 2rem;
-}
-
-.header-enlace{
-    font-size: 0.5rem;
-    margin-right: 1.8rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
-
-}
-
-
-/* RESPONSIVE PARA TABLET
-   PAGINAS CURSO Y CONTACTO */
-
-@media (min-width: 415px) and (max-width: 720px){
-    
-    
-    /* RESPONSIVE PARA INDEX/INICIO */
-
-
-
-
-
-
-
-    .main-titulos{
-        justify-content: flex-start;
-        padding-top: 12rem;
-        padding-left: 1rem;
-        padding-bottom: 0rem;
-    }
-    .main-h5{
-        margin-left: 3rem;
-        
-    }
-    h1{
-        margin-left: 3.5rem;
-    }
-    .main-imagenes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .main-img{
-        height: 20rem;
-        width: 20rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        border: 0.2rem solid rgb(255, 255, 255);
-        transition: transform 0.3s ease;
-    }
-    .main-img:hover{
-        transform: scale(1.1); 
-        cursor: pointer;
-    }
-    
-    /* seccion siguiente */
-    
-    
-    .main-sede{
-        padding-top: 42rem;
-        font-size: 1.5rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-    }
-    .h2-main{
-        text-align: center;
-        font-size: 3rem;
-        background-image: url(../img/fondoarenaypinitos.png);
-        background-size: contain;
-        background-position: center center;
-        border-top: 0.3rem solid white;
-        border-bottom: 0.3rem solid white;
-        padding-bottom: 5rem;
-        padding-top: 5rem;
-        margin-top: 14rem;
-        color: white;
-    }
-    .letrablanca{
-        color: white;
-        
-    }
-    .sedes{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 1rem;
-        margin-top: 5rem;
-    }
-    
-    /* EVENTOS */
-    
-    .imgeventos{
-        height: 13rem;
-        width: 16rem;
-    }
-    .h3-p{
-        text-align: justify center;
-        height: 13rem;
-        width: 20rem;
-        margin-left: 2.5rem; 
-    }
-    .h3-evento{
-        font-size: 1rem;
-        width: 20rem;
-        text-align: center;
-    }
-    .pdeevento{
-        font-size: 0.2 ;
-        margin-top: 0rem;
-        text-align: justify;
-    }
-
-    
-    
-    /* NUESTROS ALUMNOS */
-    
-    
-    
-    .sedesalumnos{
-        justify-content: space-between;
-        flex-direction: column;
-        color: white;
-        font-size: 1rem;
-        display: flex;
-        margin-top: 5rem;
-        align-items: center;
-    }
-    
-
-    .alumno{
-        margin-left: 0rem ;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        border-right: none;
-        border-left: none;
-        
-    }
-    .alumno2{
-        margin-right: 0rem ;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        border-right: none;
-        border-left: none;
-    }
-    .sede-al{
-        font-size: 1rem;
-    }
-
-    .art-alumnos2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .img-2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-    .img-3{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    } 
-    .img-alumnos{
-        height: 15rem;
-        width: 15rem;
-        margin-top: 4rem;
-        border: 2px solid white;
-    
-    }
-    .alumnosimagen1{
-        margin-top: 1rem;
-    }
-    .div-alumnos{
-        margin-right: 0rem;
-    }
-
-
-
-
-
-
-
-
-
-    
-    
-    /* CONOCE MAS */
-    
-    
-    
-    .cococe-tityimg{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .cococe-tityimgdos{
-        display: flex;
-    }
-    .h3-conoce{
-        border-bottom: 1px solid white;
-        border-top: 1px solid white;
-        
-    }
-    
-    .c1{
-        margin-left: 0.5rem;
-    }
-    .c2{
-        margin-left: 1.5rem;
-    } 
-    .c3{
-        margin-left: 3rem;
-    }
-    .c4{
-        margin-left: 7.5rem;
-    } 
-    .img-cococe{
-        height: 20rem;
-        width: 20rem;
-        border: 2px solid white;
-        margin-top: 1rem;
-    }
-    .p-cococe{
-        height: 10rem;
-        width: 20rem;
-        text-align: justify;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        
-    }
-    
-    
-    
-    
-    
-    /* RESPONSIVE DE CARRERAS */
-    
-    .titulo-1{
-        margin-top: 2rem;
-    }
-    .h2-facul{
-        font-size: 2rem;
-    }
-    .letrachica{
-        font-size: 1rem;
-        margin-left: 2rem;
-    }
-    .c-6{
-        width: 15rem;
-        font-size: 1rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        margin-left: 0rem;
-        text-align: center;
-    }
-    
-    
-
-
-
-/* RESPONSIVE DE TABLET DE MAESTRIAS Y POSGRADOS */
-
-
-
-
-.art-razones{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1rem;
-}
-
-.p-raz{
-    height:10rem;
-    width: 20rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-.p-raza{
-    height:10rem;
-    width: 20rem;
-    margin-right: 0rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-
-
-
-
-/* SECCION DE POSGRADO */
-
-
-/* seccion 1 */
-
-
-
-
-/* SECCION2 */
-
-.posgra{
-    padding: 4rem 0 4rem 0;
-    background-image: url('../img/posgrado.png');
-    background-position: 100%;
-    background-size: cover;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    margin-top: 10rem;
-    margin-bottom: 4rem;
-}
-.mae{
-    font-size: 2rem;
-}
-
-.esped{
-    text-transform: uppercase;
-    width: 15rem;
-    text-align: center;
-}
-.mkt{
-    margin-right: 0rem;
-    margin-left: 5rem;
-}
-.espe{
-    margin-top: 6rem;
-}
-
-.fin{
-    margin-left: 0rem;
-    margin-right: 2rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    /* RESPONSIVE DE CONTACTO */
-
-    .contacto{
-        margin-bottom: 8rem;
-        font-size: 2.5rem;
-    }
-
-    .formulario{
-        
-        width: 90%;
-        margin-left: 2.1rem;
-    }
-    .imput-group{
-        margin-left: 2.1rem;
-    }
-    .email{
-        margin-left: 1rem;
-    }
-    .nombre{
-        margin-left: 1rem;
-    }
-    .imput , textarea{
-        margin-bottom: 1rem;
-    }
-
-    /* NAV RESPONSIVE */
-    header{
-        height: 12rem;
-        width: 0rem;
-        position: absolute;
-    }
-    .header-nav{
-        flex-direction: column;
-        margin-left: 10rem;
-    
-    }
-    .header-logo{
-        height: 4rem;
-        width: 22rem;
-        margin-left: 2rem;
-        margin-top: 1rem;
-        margin-right: 0rem;
-        padding-top: 0rem;
-    }
-    
-    .header-lista{
-        height: 4rem;
-        width: 34rem;
-        margin-top: 1.5rem;
-        margin-left: 0rem;
-        padding-right: 6rem;
-        padding-left: 0rem;
-    }
-    .header-enlace{
-        font-size: 0.6rem;
-        margin-right: 1.8rem;
-        padding-left: 0rem;
-        padding-right: 0rem;
-    }
-    
-    .header-enlace:hover{
-        background-color: rgb(23, 60, 30);
-        color: rgb(255, 255, 255);
-        padding-top:1rem;
-        padding-bottom:1rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        border: 1px solid white;
-        text-align: center;
-    }
-    .main-todo2{
-        padding-top: 10rem;
-    }
-
-    /* RESPONSIVE FOOTER */
-
-    .logito-foot{
-        height: 3rem;
-        width: 30rem;
-        padding-left: 0;
-        
-    }
-    .img_creditos2{
-        display: flex;
-        justify-content: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-right: 4rem;
-        padding-left: 0;
-        margin-bottom: 3rem;
-    }
-    .footer{
-        flex-direction: column;
-        
-    }
-    .container{
-        margin-left: 10rem;
-    }
-    .img_creditos2{
-        padding-left: 4rem;
-        margin-right: 20rem;
-    }
-    .footer_row{
-        flex-direction: column;
-        margin-left: 0.5rem;
-    }
-
-    /* UBI */
-    .ubii{
-        margin-left: 4rem;
-    }
-    .footer_ubi{
-        margin-left: 1.5rem;
-    }
-    .footer_ubi a{
-        width: 20rem;
-        padding-right: 4rem;
-    }
-
-    .footer_ubi a img{
-        width: 1.8rem;
-        background-color: aliceblue;
-        border-radius: 50%;
-        padding: 0.2rem;
-        margin-right: 1rem;
-    }
-
-    /* NAVEGACION */
-
-
-    .nav{
-        margin-left: 3rem;
-    }
-    .ulnav{
-        width: 15rem;
-        text-align: center;
-        
-    }
-    .ullo{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .aubi{
-        font-size: 0.5rem;
-    }
-
-    /* CONTACTO */
-
-    .fmr{
-        margin-left: 1rem;
-    }
-    .con{
-        margin-left: 3rem;
-    }
-    .inputfoo{
-        width: 10rem;
-        margin-left: 3rem;
-    }
-    .btn{
-        height: 2rem;
-        width: 8rem;
-        font-weight: 700;
-        font-size: 1rem;
-        margin-left: 4rem;
-    }
-
-    /* REDES SOCIALES */
-
-    .redes{
-        margin-right: 18rem;
-    } 
-    .img_creditos{
-        height: 5rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        margin-top: 2rem;
-        margin-right: 20rem;
-    }
-
-
-    /* RESPONSIVE DE CURSOS */
-
-    .rsect{
-        flex-direction: column;
-        align-items: center;
-    }
-    .h1-nuestrosprogramas{
-        font-size: 1.5rem;
-        
-    }
-    .pnp{
-        margin-left: 5rem;
-        height: auto;
-        width: 30rem;
-        line-height: 1.2rem;
-    }
-    .rp{
-        margin-right: 1rem;
-        margin-left: 5rem;
-        font-size: 1rem;
-    }
-    .igm{
-        flex-direction: column;
-        align-items: center;
-    }
-    .imgcurs{
-        margin-bottom: 4rem;
-        height: 20rem;
-        width: 20rem;
-    }
-    .todo{
-        display: grid;
-        grid-template-areas: 
-        'item2 item2 item2'
-        'item1 item1 item1'
-        'item3 item3 item3'
-        ;
-        margin-left: 0rem;
-        justify-content: center;
-        padding-right: 8rem;
-    }
-    .item2{
-        text-align: center;
-        width:20rem;
-        margin-left: 3rem;
-        margin-bottom: 1rem;
-    }
-    .item1{
-        margin-left: 3rem;
-        margin-right: 0;
-    }
-    .imgdecurso{
-        height: 10rem;
-        width: 20rem;
-    }
-    .pdeitem3{
-        font-size: 1rem;
-        width: 20rem;
-        margin-left: 3rem;
-        height: auto;
-    }
-    .papre{
-        text-align: justify;
-        width: 22rem;
-        line-height: 1rem;
-        margin-right: 0rem;
-        margin-left: 12rem; 
-        font-size: 1rem;
-        padding-bottom: 2rem;
-    }
-}
+.titulo-3 {
+  justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../img/ciencias.png");
+  background-position: center center;
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+  border: 2px solid white;
+}
+
+.c-7,
+.c-8,
+.c-9 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+.c-7.c-8,
+.c-8.c-8,
+.c-9.c-8 {
+  margin-left: 3rem;
+}
+.c-7.c-9,
+.c-8.c-9,
+.c-9.c-9 {
+  margin-top: 4rem;
+}
+
+.main-todo2 {
+  background-color: #000000;
+  color: white;
+  padding-top: 8rem;
+}
+.main-todo2 .sectiondeelegirnos .p-elegirnos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+  background-image: url("../img/arenayplantita.png");
+  background-position: 100%;
+  background-size: cover;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  transition: transform 0.3s ease;
+}
+.main-todo2 .sectiondeelegirnos .p-elegirnos:hover {
+  transform: scale(1.1);
+}
+.main-todo2 .sectiondeelegirnos .p-elegirnos .h1_elegirnos {
+  font-size: 2rem;
+}
+.main-todo2 .sectiondeelegirnos .art-razones {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1rem;
+}
+.main-todo2 .sectiondeelegirnos .p-raz {
+  height: 10rem;
+  width: 25rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+.main-todo2 .sectiondeelegirnos .p-raza {
+  height: 10rem;
+  width: 20rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+.main-todo2 .sectiondeelegirnos .list {
+  margin-bottom: 1rem;
+}
+.main-todo2 .sectiondemae .fl-uno {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+.main-todo2 .sectiondemae .fl-uno:hover {
+  transform: scale(1.1);
+}
+.main-todo2 .sectiondemae .h1-nuestrosprogramas {
+  font-size: 2rem;
+}
+.main-todo2 .sectiondemae .maestria {
+  padding: 4rem 0 4rem 0;
+  background-image: url("../img/posgrado.png");
+  background-position: 100%;
+  background-size: cover;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-top: 4rem;
+}
+.main-todo2 .sectiondemae .titfle {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-todo2 .sectiondemae .titul {
+  margin-top: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.main-todo2 .sectiondemae .direccom {
+  margin-right: 1rem;
+}
+.main-todo2 .sectiondemae .pff {
+  text-align: justify;
+  height: 8rem;
+  width: 20rem;
+}
+.main-todo2 .sectiondemae .tituldos {
+  margin-top: 8rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.main-todo2 .sectiondemae .direcrec {
+  width: 22rem;
+  text-align: center;
+}
+.main-todo2 .sectiondemae .titultres {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.main-todo2 .sectdemaes .posgra {
+  padding: 4rem 0 4rem 0;
+  background-image: url("../img/posgrado.png");
+  background-position: 100%;
+  background-size: cover;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.main-todo2 .sectdemaes .posgra .mae {
+  font-size: 2rem;
+}
+.main-todo2 .sectdemaes .esped {
+  text-transform: uppercase;
+}
+.main-todo2 .sectdemaes .mkt {
+  margin-right: 2rem;
+}
+.main-todo2 .sectdemaes .espe {
+  margin-top: 6rem;
+}
+.main-todo2 .sectdemaes .fin {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.main-todo2 .sectdemaes .titfle {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-todo2 .sectdemaes .arquitectura {
+  text-decoration: none;
+}
+.main-todo2 .sectdemaes .pff {
+  text-align: justify;
+  height: 8rem;
+  width: 20rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+/* INDEX */
+/* estilo al header */
+header {
+  background-color: #000000;
+  height: 8.1rem;
+  width: 100%;
+  font-size: small;
+  color: white;
+  position: fixed;
+  font-family: "Hind", sans-serif;
+  z-index: 999;
+}
+header .header-nav {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  border-bottom: 0.1rem solid rgb(255, 255, 255);
+}
+header .header-logo {
+  height: 4rem;
+  width: 17rem;
+  margin-left: 6rem;
+  margin-top: 1.1rem;
+  margin-right: 8rem;
+  padding-top: 1.5rem;
+}
+header .header-lista {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 60%;
+  margin-top: 3.2rem;
+  margin-left: 30rem;
+}
+header .header-lista .header-enlace {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  margin-right: 1rem;
+  cursor: pointer;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+header .header-lista .header-enlace:hover {
+  background-color: rgb(36, 35, 42);
+  color: rgb(255, 255, 255);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid white;
+  text-align: center;
+}
+
+/* MAIN */
+/* sección inicial */
+/* SEDES */
+#volverainicio.main-todo {
+  background-color: #000000;
+  color: white;
+  font-family: "Hind", sans-serif;
+}
+#volverainicio.main-todo .main-principio {
+  background-color: #000000;
+  height: 38rem;
+  padding-bottom: 6rem;
+}
+#volverainicio.main-todo .main-principio .main-titulos {
+  justify-content: flex-start;
+  padding-top: 14rem;
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
+}
+#volverainicio.main-todo .main-principio .main-titulos .main-h5 {
+  margin-left: 20rem;
+  color: white;
+}
+#volverainicio.main-todo .main-principio .sec h1, #volverainicio.main-todo .main-principio .sec2 h1 {
+  font-size: 3.5rem;
+  color: white;
+  margin-left: 20rem;
+}
+#volverainicio.main-todo .main-principio .main-imagenes {
+  display: flex;
+  justify-content: space-evenly;
+}
+#volverainicio.main-todo .main-principio .main-imagenes .main-img {
+  height: 20rem;
+  width: 20rem;
+  margin-top: 2rem;
+  border: 0.2rem solid rgb(255, 255, 255);
+  transition: transform 0.3s ease;
+}
+#volverainicio.main-todo .main-principio .main-imagenes .main-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* sección siguiente */
+.secse .main-sede {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.secse .h2-main {
+  font-size: 3rem;
+  background-image: url(../img/fondoarenaypinitos.png);
+  border-top: 0.3rem solid white;
+  border-bottom: 0.3rem solid white;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  margin-top: 14rem;
+  background-size: contain;
+  background-position: center center;
+  color: white;
+  text-align: center;
+}
+.secse .letrablanca {
+  color: white;
+}
+.secse .sedes {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+  margin-top: 5rem;
+}
+.secse .sedesfondo {
+  text-align: center;
+  margin: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.secse .sedesfondo .titulosede {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+.secse .sedesfondo .sede1 {
+  height: 25rem;
+  width: 25rem;
+  border: 2px solid rgb(255, 255, 255);
+}
+.secse .sedesfondo .sedetexto {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+/* EVENTOS */
+.secciondesc .eventotitulo {
+  font-size: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 5rem;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background-image: url(../img/fondoedificio.png);
+  background-size: contain;
+  background-position: center center;
+  color: white;
+  text-align: center;
+}
+.secciondesc .cuerpoevento {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+.secciondesc .cuerpoevento .imgevento {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.secciondesc .cuerpoevento .imgevento .imgeventos {
+  height: 15rem;
+  width: 18rem;
+  border: 2px solid rgb(255, 255, 255);
+}
+.secciondesc .cuerpoevento .imgevento .h3-p {
+  height: 15rem;
+  width: 20rem;
+  margin-left: 2.5rem;
+}
+.secciondesc .cuerpoevento .imgevento .h3-p .h3-evento {
+  font-size: 1.2rem;
+  width: 20rem;
+  text-align: center;
+}
+.secciondesc .cuerpoevento .imgevento .h3-p .pdeevento {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+.secciondesc .letrablanca {
+  color: white;
+}
+.secciondesc .h2-evento {
+  font-size: 2rem;
+  color: white;
+}
+.secciondesc .pdeevento {
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+
+/* NUESTROS ALUMNOS */
+.section-alumnos .art-alumnos {
+  font-size: 2rem;
+  color: white;
+}
+.section-alumnos .art-alumnos .h2-alumnos {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-image: url("../img/fondoestudiantes.png");
+  background-size: contain;
+  background-position: center center;
+  color: white;
+  text-align: center;
+}
+.section-alumnos .sedesalumnos {
+  justify-content: space-evenly;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  margin-top: 5rem;
+}
+.section-alumnos .sedesalumnos .alumno {
+  margin-left: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+.section-alumnos .sedesalumnos .alumno .sede-al {
+  text-align: center;
+}
+.section-alumnos .sedesalumnos .alumno2 {
+  margin-right: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+.section-alumnos .sedesalumnos .alumno2 .sede-al {
+  text-align: center;
+}
+.section-alumnos .art-alumnos2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-alumnos .art-alumnos2 .img-2, .section-alumnos .art-alumnos2 .img-3 {
+  display: flex;
+}
+.section-alumnos .art-alumnos2 .img-2 .div-alumnos, .section-alumnos .art-alumnos2 .img-3 .div-alumnos {
+  margin-right: 0rem;
+}
+.section-alumnos .art-alumnos2 .img-2 .img-alumnos, .section-alumnos .art-alumnos2 .img-3 .img-alumnos {
+  height: 15rem;
+  width: 15rem;
+  margin-top: 4rem;
+  border-bottom: 1rem solid white;
+  border-top: 1rem solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+/* CONOCE MAS */
+.section .h2-cococemas {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-image: url("../img/fondoflores.png");
+  background-size: contain;
+  background-position: center center;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.section .artdesc .cococe-tityimg, .section .artdesc .cococe-tityimgdos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section .artdesc .cococe-tityimg.c1, .section .artdesc .cococe-tityimgdos.c1 {
+  justify-content: space-evenly;
+}
+.section .artdesc .cococe-tityimg .h3-conoce, .section .artdesc .cococe-tityimgdos .h3-conoce {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.section .artdesc .cococe-tityimg .c1, .section .artdesc .cococe-tityimgdos .c1 {
+  margin-left: 0.5rem;
+}
+.section .artdesc .cococe-tityimg .c2, .section .artdesc .cococe-tityimgdos .c2 {
+  margin-left: 1.5rem;
+}
+.section .artdesc .cococe-tityimg .c3, .section .artdesc .cococe-tityimgdos .c3 {
+  margin-right: 4rem;
+}
+.section .artdesc .cococe-tityimg .c4, .section .artdesc .cococe-tityimgdos .c4 {
+  margin-right: 4rem;
+}
+.section .artdesc .cococe-tityimg .img-cococe, .section .artdesc .cococe-tityimgdos .img-cococe {
+  height: 20rem;
+  width: 20rem;
+  border: 2px solid white;
+  margin-top: 1rem;
+}
+.section .artdesc .cococe-tityimg .p-cococe, .section .artdesc .cococe-tityimgdos .p-cococe {
+  height: 10rem;
+  width: 20rem;
+  text-align: justify;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=index.css.map */
