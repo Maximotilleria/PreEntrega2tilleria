@@ -1,92 +1,111 @@
-.contacto{
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 8rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    background-image: url('../img/fondoedificio.png');
-    background-position: 100%;
-    background-size: contain;
-    border: 2px solid white;
-}
-.formulario{
-    height: 25rem;
-    padding: 2rem 5.5rem;
-    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
-    border-radius: 2rem;
-    text-align: center;
-    width: 34rem;
-    border: 2px solid white;
-    background-position: 100%;
-    margin-left: 25rem;
-    display: flex;
-    justify-content: center;
-}
+$colornegro:#000000;
+$veinterem: 20rem;
+$unrem:1rem;
+$cincorem: 5rem;
+$solidwhite:2px solid white;
+$mayuscula: uppercase;
 
+.main-todo2 {
+    .secdecontacto {
+        .contacto {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 8rem;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            background-image: url('../img/fondoedificio.png');
+            background-position: 100%;
+            background-size: contain;
+            border: $solidwhite;
+        }
+    }
 
-.form{
-    background-image:url('../img/fondoedificio.png') ;
-}
+    .formulario {
+        height: 25rem;
+        padding: 2rem 5.5rem;
+        box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+        text-align: center;
+        width: 34rem;
+        border: $solidwhite;
+        background-position: 100%;
+        margin-left: 50rem;
+        display: flex;
+        justify-content: center;
 
-.form-txt a{
-    color: #fdfdfd;
-    text-decoration: none;
-    margin-bottom: 2.5rem;
-    font-size: 0.8rem;
-}
-.form-txt:hover{
-    color: #555e56;
-}
+        .form {
+            
 
-.imput-group{
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-}
-.email{
-    margin-left: 1.2rem;
-}
-.nombre{
-    margin-left: 1.2rem;
-}
-.imput-group input{
-    background-color: #ffffff;
-    border-radius: 1rem;
-    height: 3rem;
-    
-}
-.imput , textarea{
-    width: 17rem;
-    max-height: 6rem;
-    overflow: hidden;
-    background-color: #ffffff;
-    padding: 2rem 1.4rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-radius: 1rem ;
-    color: #000000;
-}
+            .form-txt {
+                display: flex;
+                justify-content: space-between;
 
-::placeholder{
-    color: #000000;
-}
-:focus{
-    outline: #a7b2a8;
-}
-.boton{
-    background-color: #15371c;
-    color: #000000;
-    cursor: pointer;
-    height: 4rem;
-    width: 6rem;
-    border-radius: 1rem;
-    margin-left: 5rem;
-}
-.boton:hover{
-    background-color: #bed1c0;
-}
+                a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    margin-bottom: 2.5rem;
+                    font-size: 0.8rem;
 
-.form-txt{
-    display: flex;
-    justify-content: space-evenly;
+                    &:hover {
+                        color: #555e56;
+                    }
+                }
+            }
+
+            .imput-group {
+                display: flex;
+                flex-direction: column;
+                
+
+                input {
+                    background-color: #ffffff;
+                    border-radius: $unrem;
+                    height: 3rem;
+                }
+
+                .email {
+                    margin-bottom: $unrem;
+                    
+                }
+
+                .nombre {
+                    margin-bottom: $unrem;
+                }
+
+                .textarea {
+                    width: 17rem;
+                    max-height: 6rem;
+                    overflow: hidden;
+                    background-color: #ffffff;
+                    padding: 2rem 1.4rem;
+                    margin-bottom: $unrem;
+                    border: 0;
+                    border-radius: $unrem;
+                    color: $colornegro;
+
+                    &::placeholder {
+                        color: $colornegro;
+                    }
+
+                    &:focus {
+                        outline: $colornegro;
+                    }
+                }
+
+                .boton {
+                    background-color: #ffffff;
+                    color: $colornegro;
+                    cursor: pointer;
+                    height: 4rem;
+                    width: 6rem;
+                    border-radius: $unrem;
+                    margin-left: 5.5rem;
+
+                    &:hover {
+                        background-color: #bed1c0;
+                    }
+                }
+            }
+        }
+    }
 }

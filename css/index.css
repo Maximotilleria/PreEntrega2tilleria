@@ -272,6 +272,407 @@
   width: 20rem;
 }
 
+.main-todo2 {
+  background-color: #000000;
+  color: white;
+  padding-top: 8rem;
+}
+.main-todo2 .sdecur .fl-uno {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+.main-todo2 .sdecur .fl-uno .h1-nuestrosprogramas {
+  font-weight: bold;
+}
+.main-todo2 .sdecur .np {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.main-todo2 .sdecur .pnp {
+  text-align: justify;
+  width: 55rem;
+  margin-left: 40rem;
+  line-height: 2rem;
+}
+.main-todo2 .sdecur .pnp .rp {
+  text-decoration: none;
+}
+.main-todo2 .sdecur .igm {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  transition: transform 0.3s ease;
+}
+.main-todo2 .sdecur .igm .imgcurs {
+  height: 12rem;
+  width: 14rem;
+  border: 2px solid white;
+}
+.main-todo2 .sdecur .igm .imgcurs:hover {
+  transform: scale(1.1);
+}
+
+.secparascss .titulodecurso {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 4rem 0 4rem 0;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background-image: url("../img/ciber.jpg");
+  background-size: cover;
+}
+.secparascss .titulodecurso .h2cur {
+  font-size: 2rem;
+}
+.secparascss .todo {
+  display: grid;
+  grid-template-areas: "item1 item2 item2" "item1 item3 item3";
+  width: 50rem;
+  margin-left: 40rem;
+}
+.secparascss .todo.artcu {
+  margin-top: 4rem;
+}
+.secparascss .todo .item1 {
+  grid-area: item1;
+  margin-right: 1rem;
+}
+.secparascss .todo .item2 {
+  grid-area: item2;
+  text-align: start;
+}
+.secparascss .todo .item2 .tdder {
+  font-size: 1.5rem;
+}
+.secparascss .todo .item3 {
+  grid-area: item3;
+  text-align: justify;
+}
+.secparascss .todo .item3 .pdeitem3 {
+  font-size: 1.28rem;
+  margin-top: 1rem;
+}
+.secparascss .todo .imgdecurso {
+  height: 15rem;
+  width: 25rem;
+  border: 1px solid white;
+}
+.secparascss.artcu {
+  margin-top: 4rem;
+}
+.secparascss .item1 {
+  grid-area: item1;
+  margin-right: 1rem;
+}
+.secparascss .item2 {
+  grid-area: item2;
+  text-align: start;
+}
+.secparascss .item2 .tdder {
+  font-size: 1.5rem;
+}
+.secparascss .item3 {
+  grid-area: item3;
+  text-align: justify;
+}
+.secparascss .item3 .pdeitem3 {
+  font-size: 1.28rem;
+  margin-top: 1rem;
+}
+.secparascss .imgdecurso {
+  height: 15rem;
+  width: 25rem;
+  border: 1px solid white;
+}
+
+.artdesccs .titcrean {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding: 4rem 0 4rem 0;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background-image: url("../img/meto.jpg");
+  background-size: contain;
+}
+.artdesccs .titcrean .h2decrea {
+  font-size: 2rem;
+}
+.artdesccs .papre {
+  display: flex;
+  margin-left: 42rem;
+  text-align: justify;
+  width: 50rem;
+  line-height: 2rem;
+}
+
+.main-todo2 .secdecontacto .contacto {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-image: url("../img/fondoedificio.png");
+  background-position: 100%;
+  background-size: contain;
+  border: 2px solid white;
+}
+.main-todo2 .formulario {
+  height: 25rem;
+  padding: 2rem 5.5rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
+  text-align: center;
+  width: 34rem;
+  border: 2px solid white;
+  background-position: 100%;
+  margin-left: 50rem;
+  display: flex;
+  justify-content: center;
+}
+.main-todo2 .formulario .form .form-txt {
+  display: flex;
+  justify-content: space-between;
+}
+.main-todo2 .formulario .form .form-txt a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 2.5rem;
+  font-size: 0.8rem;
+}
+.main-todo2 .formulario .form .form-txt a:hover {
+  color: #555e56;
+}
+.main-todo2 .formulario .form .imput-group {
+  display: flex;
+  flex-direction: column;
+}
+.main-todo2 .formulario .form .imput-group input {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  height: 3rem;
+}
+.main-todo2 .formulario .form .imput-group .email {
+  margin-bottom: 1rem;
+}
+.main-todo2 .formulario .form .imput-group .nombre {
+  margin-bottom: 1rem;
+}
+.main-todo2 .formulario .form .imput-group .textarea {
+  width: 17rem;
+  max-height: 6rem;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 2rem 1.4rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-radius: 1rem;
+  color: #000000;
+}
+.main-todo2 .formulario .form .imput-group .textarea::placeholder {
+  color: #000000;
+}
+.main-todo2 .formulario .form .imput-group .textarea:focus {
+  outline: #000000;
+}
+.main-todo2 .formulario .form .imput-group .boton {
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+  height: 4rem;
+  width: 6rem;
+  border-radius: 1rem;
+  margin-left: 5.5rem;
+}
+.main-todo2 .formulario .form .imput-group .boton:hover {
+  background-color: #bed1c0;
+}
+
+footer {
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+footer .container {
+  max-width: 150rem;
+  margin: 0 auto;
+}
+footer .container .img_creditos2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+  margin-bottom: 3rem;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+footer .container .img_creditos2 .logito-foot {
+  height: 4rem;
+  width: 20rem;
+  transition: transform 0.3s ease;
+}
+footer .container .footer_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 4rem;
+}
+footer .container .footer_row .footer_links {
+  width: 25%;
+  padding: 0 1.5rem;
+  margin: 1rem;
+}
+footer .container .footer_row .footer_links .ubii {
+  margin-left: 2rem;
+}
+footer .container .footer_row .footer_links .footer_ubi a img {
+  width: 2rem;
+  background-color: aliceblue;
+  border-radius: 50%;
+  padding: 0.2rem;
+  margin-right: 1rem;
+}
+footer .container .footer_row .footer_links .footer_ubi a img:hover {
+  background-color: #003e08;
+  transition: all 0.5s ease;
+}
+footer .container .footer_row .footer_links h4 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+  border-bottom: 0.2rem solid #15751e;
+  padding-bottom: 1rem;
+  display: inline-block;
+}
+footer .container .footer_row .footer_links ul li a {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+footer .container .footer_row .footer_links ul li a:hover {
+  color: aqua;
+  padding-left: 0.6rem;
+}
+footer .container .footer_row .footer_links h4.nav {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+  border-bottom: 0.2rem solid #15751e;
+  padding-bottom: 1rem;
+  display: inline-block;
+}
+footer .container .footer_row .footer_links ul.ullo li.ulnav a {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+footer .container .footer_row .footer_links ul.ullo li.ulnav a:hover {
+  color: aqua;
+  padding-left: 0.6rem;
+}
+footer .container .footer_row .footer_links h4.con {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+  border-bottom: 0.2rem solid #15751e;
+  padding-bottom: 1rem;
+  display: inline-block;
+}
+footer .container .footer_row .footer_links form.fmr input.inputfoo,
+footer .container .footer_row .footer_links form.fmr button.btn {
+  margin-bottom: 1rem;
+  display: block;
+  width: 14.5rem;
+  height: 2rem;
+}
+footer .container .footer_row .footer_links form.fmr input.inputfoo::placeholder {
+  padding: 0.2rem 0 0.2rem 0.4rem;
+}
+footer .container .footer_row .footer_links form.fmr button.btn {
+  background-color: #15751e;
+  border-radius: 1rem;
+  height: 3.5rem;
+  width: 15rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+footer .container .footer_row .footer_links form.fmr button.btn:hover {
+  background-color: #003e08;
+  transition: all 0.5s ease;
+}
+footer .container .redes {
+  display: flex;
+  justify-content: center;
+}
+footer .container .redes .footer_links {
+  width: 30rem;
+  margin-left: 10rem;
+}
+footer .container .redes .footer_links .social_links a {
+  display: inline-block;
+  height: 4rem;
+  width: 4rem;
+  background-color: #003e08;
+  margin: 0 1rem 1rem 0;
+  line-height: 2rem;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+footer .container .redes .footer_links .social_links a:hover {
+  background-color: rgba(0, 62, 8, 0.5529411765);
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.logito-foot:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.img_creditos {
+  display: flex;
+  justify-content: center;
+  padding-right: 4rem;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 8rem 0;
+}
+
+/* ubicacion */
+/* fin de ubi */
+/* Contacto */
+/* input */
+@media (max-width: 9.9rem) {
+  .footer_row {
+    text-align: center;
+  }
+  .footer_links {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+}
 * {
   padding: 0;
   margin: 0;
