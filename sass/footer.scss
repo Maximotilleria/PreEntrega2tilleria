@@ -1,7 +1,18 @@
+$colornegro:#000000;
+$veinterem: 20rem;
+$unrem:1rem;
+$cincorem: 5rem;
+$solidwhite:2px solid white;
+$mayuscula: uppercase;
+
+
+
 // FOOOTER
 footer {
     box-sizing: border-box;
     text-transform: capitalize;
+    background-color: $colornegro;
+    padding: 8rem 0;
 
     .container {
         max-width: 150rem;
@@ -14,13 +25,18 @@ footer {
             padding-bottom: 2rem;
             padding-right: 4rem;
             margin-bottom: 3rem;
-            border-top: 2px solid white;
-            border-bottom: 2px solid white;
+            border-top: $solidwhite;
+            border-bottom: $solidwhite;
 
             .logito-foot {
                 height: 4rem;
-                width: 20rem;
+                width: $veinterem;
                 transition: transform 0.3s ease;
+                
+            }
+            .logito-foot:hover {
+                transform: scale(1.1);
+                cursor: pointer;
             }
         }
 
@@ -33,7 +49,7 @@ footer {
             .footer_links {
                 width: 25%;
                 padding: 0 1.5rem;
-                margin: 1rem;
+                margin: $unrem;
 
                 .ubii {
                     margin-left: 2rem;
@@ -45,7 +61,7 @@ footer {
                         background-color: aliceblue;
                         border-radius: 50%;
                         padding: 0.2rem;
-                        margin-right: 1rem;
+                        margin-right: $unrem;
 
                         &:hover {
                             background-color: #003e08;
@@ -60,7 +76,7 @@ footer {
                     margin-bottom: 2.5rem;
                     font-weight: 600;
                     border-bottom: 0.2rem solid #15751e;
-                    padding-bottom: 1rem;
+                    padding-bottom: $unrem;
                     display: inline-block;
                 }
 
@@ -86,7 +102,7 @@ footer {
                         margin-bottom: 2.5rem;
                         font-weight: 600;
                         border-bottom: 0.2rem solid #15751e;
-                        padding-bottom: 1rem;
+                        padding-bottom: $unrem;
                         display: inline-block;
                     }
 
@@ -118,7 +134,7 @@ footer {
                         margin-bottom: 2.5rem;
                         font-weight: 600;
                         border-bottom: 0.2rem solid #15751e;
-                        padding-bottom: 1rem;
+                        padding-bottom: $unrem;
                         display: inline-block;
                     }
 
@@ -126,7 +142,7 @@ footer {
 
                         input.inputfoo,
                         button.btn {
-                            margin-bottom: 1rem;
+                            margin-bottom: $unrem;
                             display: block;
                             width: 14.5rem;
                             height: 2rem;
@@ -140,7 +156,7 @@ footer {
 
                         button.btn {
                             background-color: #15751e;
-                            border-radius: 1rem;
+                            border-radius: $unrem;
                             height: 3.5rem;
                             width: 15rem;
                             font-weight: 700;
@@ -166,12 +182,12 @@ footer {
                         height: 4rem;
                         width: 4rem;
                         background-color: #003e08;
-                        margin: 0 1rem 1rem 0;
+                        margin: 0 $unrem $unrem 0;
                         line-height: 2rem;
                         border-radius: 50%;
                         color: white;
                         transition: all 0.5s ease;
-                        padding: 1rem;
+                        padding: $unrem;
                         transition: transform 0.3s ease;
 
                         &:hover {
@@ -184,23 +200,18 @@ footer {
             }
         
         }
+        .img_creditos {
+            display: flex;
+            justify-content: center;
+            padding-right: 4rem;
+            border-top: $solidwhite;
+            border-bottom: $solidwhite;
+        }
     }
 }
 
 
-
-.logito-foot:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.img_creditos {
-    display: flex;
-    justify-content: center;
-    padding-right: 4rem;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-}
+// FIN DE FOOTER
 
 
 
@@ -208,35 +219,10 @@ footer {
 
 
 
-.footer {
-    background-color: #000000;
-    padding: 8rem 0;
-}
 
 
 
 
-/* ubicacion */
 
 
 
-
-/* fin de ubi */
-
-
-
-/* Contacto */
-/* input */
-
-
-@media(max-width:9.9rem) {
-    .footer_row {
-        text-align: center;
-    }
-
-    .footer_links {
-        width: 100%;
-        margin-bottom: 3rem;
-    }
-
-}
