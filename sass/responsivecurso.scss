@@ -1,0 +1,281 @@
+$colornegro:#000000;
+$veinterem: 20rem;
+$unrem:1rem;
+$cincorem: 5rem;
+$solidwhite:2px solid white;
+$mayuscula: uppercase;
+@media (max-width: 414px) {
+
+    /* PAGINA DE CURSOS RESPONSIVE */
+
+    .main-todo2 {
+        background-color: $colornegro;
+        color: white;
+        padding-top: 8rem;
+
+        .sdecur {
+            .fl-uno {
+                flex-direction: column;
+                align-items: center;
+
+                .h1-nuestrosprogramas {
+                    font-size: $unrem;
+                    font-weight: bold;
+                }
+            }
+
+            .np {
+                margin-top: 4rem;
+                margin-bottom: 2rem;
+            }
+
+            .pnp {
+                text-align: justify;
+                width: 22rem;
+                margin-left: 10rem;
+                margin-right: 2rem;
+                line-height: $unrem;
+                margin-bottom: 4rem;
+
+                .rp {
+                    margin-left: 0rem;
+                    font-size: $unrem;
+                }
+            }
+
+            .igm {
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+
+                .imgcurs {
+                    margin-bottom: 2rem;
+                }
+            }
+
+            .todo {
+                display: grid;
+                grid-template-areas:
+                    'item1 item2 item2'
+                    'item1 item3 item3';
+                margin-left: 0;
+
+                .item1,
+                .item2,
+                .item3 {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+
+                .item2 {
+                    text-align: center;
+                    width: $veinterem;
+                    margin-left: 2rem;
+                    margin-bottom: $unrem;
+
+                    .tdder {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .item1 {
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+
+                .item3 {
+                    font-size: $unrem;
+                    width: 100%;
+                    margin-left: 0;
+                    height: auto;
+                }
+
+                .imgdecurso {
+                    height: 15rem;
+                    width: 25rem;
+                    border: 1px solid white;
+                }
+
+                .artcu & {
+                    margin-top: 4rem;
+                }
+            }
+        }
+
+        .secparascss {
+            .titulodecurso {
+                display: flex;
+                justify-content: center;
+                margin-top: 4rem;
+                margin-bottom: 4rem;
+                padding: 4rem 0 4rem 0;
+                border-top: $solidwhite;
+                border-bottom: $solidwhite;
+                background-image: url('../img/ciber.jpg');
+                background-size: cover;
+
+                .h2cur {
+                    font-size: 2rem;
+                }
+            }
+
+            .todo {
+                display: grid;
+                grid-template-areas:
+                    'item2 '
+                    'item1'
+                    'item3';
+                width: auto;
+
+                margin-left: 0rem;
+                margin-right: 0rem;
+
+                .item1,
+                .item2,
+                .item3 {
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+
+                .item2 {
+                    text-align: center;
+                    width: $veinterem;
+                    margin-left: 10rem;
+                    margin-bottom: $unrem;
+
+                    .tdder {
+                        font-size: 1.5rem;
+                    }
+                }
+
+                .item1 {
+                    margin-left: 8rem;
+                    margin-right: 2rem;
+                }
+
+                .item3 {
+                    font-size: $unrem;
+                    width: $veinterem;
+                    margin-left: 10rem;
+                    height: auto;
+                }
+
+                .imgdecurso {
+                    height: 15rem;
+                    width: 25rem;
+                    border: 1px solid white;
+                }
+
+                .artcu & {
+                    margin-top: 4rem;
+                }
+            }
+        }
+
+        .artdesccs {
+            .titcrean {
+                display: flex;
+                justify-content: center;
+                margin-top: 4rem;
+                margin-bottom: 2rem;
+                padding: 4rem 0 4rem 0;
+                border-top: $solidwhite;
+                border-bottom: $solidwhite;
+                background-image: url('../img/meto.jpg');
+                background-size: contain;
+
+                .h2decrea {
+                    font-size: 2rem;
+                }
+            }
+
+            .papre {
+                display: flex;
+                margin-left: 4rem;
+                margin-right: 2rem;
+                text-align: justify;
+                width: 32rem;
+                line-height: 1.6rem;
+            }
+        }
+    }
+}
+
+@media (min-width: 415px) and (max-width: 720px) {
+
+    /* PAGINA DE CURSOS RESPONSIVE */
+    .main-todo2 {
+        .sdecur {
+            .pnp {
+                margin-left: 10rem;
+            }
+        }
+        .secparascss {
+            .todo {
+                display: grid;
+                grid-template-areas:
+                    'item2 item2 item2'
+                    'item1 item1 item1'
+                    'item3 item3 item3';
+                margin-left: 12rem;
+                justify-content: center;
+                padding-right: 8rem;
+    
+                .item2 {
+                    text-align: center;
+                    width: $veinterem;
+                    margin-left: 3rem;
+                    margin-bottom: $unrem;
+                }
+    
+                .item1 {
+                    margin-left: 3rem;
+                    margin-right: 0;
+                }
+    
+                .imgdecurso {
+                    height: 10rem;
+                    width: $veinterem;
+                }
+    
+                .pdeitem3 {
+                    font-size: $unrem;
+                    width: $veinterem;
+                    margin-left: 3rem;
+                    height: auto;
+                }
+            }
+        }
+    
+        .artdesccs {
+            .titcrean {
+                display: flex;
+                justify-content: center;
+                margin-top: 4rem;
+                margin-bottom: 2rem;
+                padding: 4rem 0 4rem 0;
+                border-top: $solidwhite;
+                border-bottom: $solidwhite;
+                background-image: url('../img/meto.jpg');
+                background-size: contain;
+    
+                .h2decrea {
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+            }
+    
+            .papre {
+                display: flex;
+                margin-left: $veinterem;
+                margin-right: 2rem;
+                text-align: justify;
+                width: 32rem;
+                line-height: 1.6rem;
+                font-size: $unrem;
+                padding-bottom: 2rem;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,21 @@
+$colornegro: #000000;
+$veinterem: 20rem;
+$unrem: 1rem;
+$cincorem: 5rem;
+$solidwhite: 2px solid white;
+
+
+@mixin estilotitulo {
+    background-size: contain;
+    background-position: center center;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media (max-width: 414px) {
+    
+}
+
+@media (min-width: 415px) and (max-width: 720px) {}

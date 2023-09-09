@@ -1,0 +1,110 @@
+$colornegro:#000000;
+$veinterem: 20rem;
+$unrem:1rem;
+$cincorem: 5rem;
+$solidwhite:2px solid white;
+$mayuscula: uppercase;
+
+
+
+@media (max-width: 414px) {
+    .main-todo3 {
+        padding-bottom: 6rem;
+    
+        
+    
+        
+    
+        .c-1 {
+            font-size: $unrem;
+            text-transform: $mayuscula;
+            margin-left: 0rem;
+            margin-bottom: $unrem;
+            margin-top: 2rem;
+        }
+    
+        .c-2 {
+            font-size: $unrem;
+            text-transform: $mayuscula;
+            margin-left: 0rem;
+            margin-bottom: $unrem;
+            margin-top: 2rem;
+        }
+    
+        /* tercera seccion */
+        .c-3 {
+            font-size: $unrem;
+            text-transform: $mayuscula;
+            margin-bottom: $unrem;
+            margin-top: 11rem;
+        }
+    }
+    
+    // acaa cambio
+    .h2-facul {
+        font-size: 1.5rem;
+    }
+
+    
+    .c-4 {
+        font-size: $unrem;
+        text-transform: $mayuscula;
+        margin-bottom: $unrem;
+        margin-left: 0rem;
+    }
+    
+    .c-5{
+        font-size: $unrem;
+        text-transform: $mayuscula;
+        margin-bottom: $unrem;
+        margin-top: 4rem;
+    }
+    .c-6 {
+        font-size: $unrem;
+        text-transform: $mayuscula;
+        margin-bottom: $unrem;
+        margin-top: 4rem;
+        margin-left: 0rem;
+    }
+    
+    .c-7,
+    .c-8,
+    .c-9 {
+        font-size: $unrem;
+        text-transform: $mayuscula;
+        margin-bottom: $unrem;
+        margin-left: 0rem;
+    
+        &.c-8 {
+            margin-left: 0rem;
+        }
+    }
+    .arquitectura{
+        display: none;
+    }
+}
+@media (min-width: 415px) and (max-width: 720px) {
+    .main-todo3 {
+        padding-bottom: 6rem;
+        .h2-facul {
+            font-size: 2.5rem;
+        }
+        
+        
+        
+        .c-7,
+        .c-8,
+        .c-9 {
+            font-size: $unrem;
+            text-transform: $mayuscula;
+            margin-bottom: $unrem;
+            margin-left: 2rem;
+        
+            &.c-8 {
+                margin-left: 3rem;
+                margin-top: 4rem;
+            }
+        
+        }
+    }
+}

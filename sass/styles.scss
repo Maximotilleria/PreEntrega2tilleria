@@ -3,7 +3,11 @@
 @import 'cursos';
 @import 'contacto.scss';
 @import 'footer.scss';
-@import 'mobile.scss';
+@import 'responsivecurso.scss';
+@import 'responsivecontacto.scss';
+@import 'responsivemaestriasyposgrados.scss';
+@import 'responsivecarreras.scss';
+@import 'responsiveindex.scss';
 
 $colornegro:#000000;
 $veinterem: 20rem;
@@ -13,10 +17,10 @@ $solidwhite:2px solid white;
 
 
 @mixin estilotitulo {
-  background-size: contain;
-  background-position: center center;
-  color: white;
-  text-align: center;
+    background-size: contain;
+    background-position: center center;
+    color: white;
+    text-align: center;
 }
 
 * {
