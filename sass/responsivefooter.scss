@@ -1,0 +1,409 @@
+@media (max-width: 414px) {
+    footer {
+        box-sizing: border-box;
+        text-transform: capitalize;
+        background-color: $colornegro;
+        padding: 8rem 0;
+    
+        .container {
+            max-width: 150rem;
+            margin: 0 auto;
+    
+            .img_creditos2 {
+                display: flex;
+                justify-content: center;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                padding-right: 0rem;
+                margin-bottom: 3rem;
+                border-top: $solidwhite;
+                border-bottom: $solidwhite;
+    
+                .logito-foot {
+                    height: 4rem;
+                    width: $veinterem;
+                    transition: transform 0.3s ease;
+                    
+                }
+                .logito-foot:hover {
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+            }
+    
+            .footer_row {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-left: 4rem;
+    
+                .footer_links {
+                    width: 30rem;
+                    padding: 0 1.5rem;
+                    margin: $unrem;
+                    margin-left: 7rem;
+    
+                    .ubii {
+                        margin-left: 2rem;
+                    }
+    
+                    .footer_ubi {
+                        a img {
+                            width: 2rem;
+                            background-color: aliceblue;
+                            border-radius: 50%;
+                            padding: 0.2rem;
+                            margin-right: $unrem;
+    
+                            &:hover {
+                                background-color: #003e08;
+                                transition: all 0.5s ease;
+                            }
+                        }
+                    }
+    
+                    h4 {
+                        color: white;
+                        font-size: 2rem;
+                        margin-bottom: 2.5rem;
+                        font-weight: 600;
+                        border-bottom: 0.2rem solid #15751e;
+                        padding-bottom: $unrem;
+                        display: inline-block;
+                    }
+    
+                    ul li a {
+                        font-size: 1.5rem;
+                        font-weight: 300;
+                        text-decoration: none;
+                        color: white;
+                        display: block;
+                        margin-bottom: 1.5rem;
+                        transition: all 0.3s ease;
+    
+                        &:hover {
+                            color: aqua;
+                            padding-left: 0.6rem;
+                        }
+                    }
+                }
+                .footer_links {
+                        h4.nav {
+                            color: white;
+                            font-size: 2rem;
+                            margin-bottom: 2.5rem;
+                            font-weight: 600;
+                            border-bottom: 0.2rem solid #15751e;
+                            padding-bottom: $unrem;
+                            display: inline-block;
+                        }
+    
+                        ul.ullo {
+                            li.ulnav {
+                                a {
+                                    font-size: 1.5rem;
+                                    font-weight: 300;
+                                    text-decoration: none;
+                                    color: white;
+                                    display: block;
+                                    margin-bottom: 1.5rem;
+                                    transition: all 0.3s ease;
+    
+                                    &:hover {
+                                        color: aqua;
+                                        padding-left: 0.6rem;
+                                    }
+                                }
+                            }
+                        }
+                }
+    
+    
+                .footer_links {
+                        h4.con {
+                            color: white;
+                            font-size: 2rem;
+                            margin-bottom: 2.5rem;
+                            font-weight: 600;
+                            border-bottom: 0.2rem solid #15751e;
+                            padding-bottom: $unrem;
+                            display: inline-block;
+                        }
+    
+                        form.fmr {
+    
+                            input.inputfoo,
+                            button.btn {
+                                margin-bottom: $unrem;
+                                display: block;
+                                width: 14.5rem;
+                                height: 2rem;
+                            }
+    
+                            input.inputfoo {
+                                &::placeholder {
+                                    padding: 0.2rem 0 0.2rem 0.4rem;
+                                }
+                            }
+    
+                            button.btn {
+                                background-color: #15751e;
+                                border-radius: $unrem;
+                                height: 3.5rem;
+                                width: 15rem;
+                                font-weight: 700;
+                                font-size: 1.5rem;
+    
+                                &:hover {
+                                    background-color: #003e08;
+                                    transition: all 0.5s ease;
+                                }
+                            }
+                        }
+                    }
+            }
+            .redes {
+                display: flex;
+                justify-content: center;
+                .footer_links {
+                    width: 30rem;
+                    margin-left: 9rem;
+                    .social_links {
+                        a {
+                            display: inline-block;
+                            height: 4rem;
+                            width: 4rem;
+                            background-color: #003e08;
+                            margin: 0 $unrem $unrem 0;
+                            line-height: 2rem;
+                            border-radius: 50%;
+                            color: white;
+                            transition: all 0.5s ease;
+                            padding: $unrem;
+                            transition: transform 0.3s ease;
+    
+                            &:hover {
+                                background-color: #003e088d;
+                                transform: translateY(-10px);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            
+            }
+            .img_creditos {
+                display: flex;
+                justify-content: center;
+                padding-right: 0rem;
+                border-top: $solidwhite;
+                border-bottom: $solidwhite;
+            }
+        }
+    }
+}
+@media (min-width: 415px) and (max-width: 720px) {
+    footer {
+        box-sizing: border-box;
+        text-transform: capitalize;
+        background-color: $colornegro;
+        padding: 8rem 0;
+    
+        .container {
+            max-width: 150rem;
+            margin: 0 auto;
+    
+            .img_creditos2 {
+                display: flex;
+                justify-content: center;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                padding-right: 0rem;
+                margin-bottom: 3rem;
+                border-top: $solidwhite;
+                border-bottom: $solidwhite;
+    
+                .logito-foot {
+                    height: 4rem;
+                    width: $veinterem;
+                    transition: transform 0.3s ease;
+                    
+                }
+                .logito-foot:hover {
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+            }
+    
+            .footer_row {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 4rem;
+    
+                .footer_links {
+                    width: 30rem;
+                    padding: 0 1.5rem;
+                    margin: $unrem;
+                    margin-left: 22.5rem;
+                    
+    
+                    .ubii {
+                        margin-left: 2rem;
+                    }
+    
+                    .footer_ubi {
+                        a img {
+                            width: 2rem;
+                            background-color: aliceblue;
+                            border-radius: 50%;
+                            padding: 0.2rem;
+                            margin-right: $unrem;
+    
+                            &:hover {
+                                background-color: #003e08;
+                                transition: all 0.5s ease;
+                            }
+                        }
+                    }
+    
+                    h4 {
+                        color: white;
+                        font-size: 2rem;
+                        margin-bottom: 2.5rem;
+                        font-weight: 600;
+                        border-bottom: 0.2rem solid #15751e;
+                        padding-bottom: $unrem;
+                        display: inline-block;
+                    }
+    
+                    ul li a {
+                        font-size: 1.5rem;
+                        font-weight: 300;
+                        text-decoration: none;
+                        color: white;
+                        display: block;
+                        margin-bottom: 1.5rem;
+                        transition: all 0.3s ease;
+    
+                        &:hover {
+                            color: aqua;
+                            padding-left: 0.6rem;
+                        }
+                    }
+                }
+                .footer_links {
+                        h4.nav {
+                            color: white;
+                            font-size: 2rem;
+                            margin-bottom: 2.5rem;
+                            font-weight: 600;
+                            border-bottom: 0.2rem solid #15751e;
+                            padding-bottom: $unrem;
+                            display: inline-block;
+                        }
+    
+                        ul.ullo {
+                            li.ulnav {
+                                a {
+                                    font-size: 1.5rem;
+                                    font-weight: 300;
+                                    text-decoration: none;
+                                    color: white;
+                                    display: block;
+                                    margin-bottom: 1.5rem;
+                                    transition: all 0.3s ease;
+    
+                                    &:hover {
+                                        color: aqua;
+                                        padding-left: 0.6rem;
+                                    }
+                                }
+                            }
+                        }
+                }
+    
+    
+                .footer_links {
+                        h4.con {
+                            color: white;
+                            font-size: 2rem;
+                            margin-bottom: 2.5rem;
+                            font-weight: 600;
+                            border-bottom: 0.2rem solid #15751e;
+                            padding-bottom: $unrem;
+                            display: inline-block;
+                        }
+    
+                        form.fmr {
+    
+                            input.inputfoo,
+                            button.btn {
+                                margin-bottom: $unrem;
+                                display: block;
+                                width: 14.5rem;
+                                height: 2rem;
+                            }
+    
+                            input.inputfoo {
+                                &::placeholder {
+                                    padding: 0.2rem 0 0.2rem 0.4rem;
+                                }
+                            }
+    
+                            button.btn {
+                                background-color: #15751e;
+                                border-radius: $unrem;
+                                height: 3.5rem;
+                                width: 15rem;
+                                font-weight: 700;
+                                font-size: 1.5rem;
+    
+                                &:hover {
+                                    background-color: #003e08;
+                                    transition: all 0.5s ease;
+                                }
+                            }
+                        }
+                    }
+            }
+            .redes {
+                display: flex;
+                justify-content: center;
+                .footer_links {
+                    width: 30rem;
+                    margin-left: 10rem;
+                    .social_links {
+                        a {
+                            display: inline-block;
+                            height: 4rem;
+                            width: 4rem;
+                            background-color: #003e08;
+                            margin: 0 $unrem $unrem 0;
+                            line-height: 2rem;
+                            border-radius: 50%;
+                            color: white;
+                            transition: all 0.5s ease;
+                            padding: $unrem;
+                            transition: transform 0.3s ease;
+    
+                            &:hover {
+                                background-color: #003e088d;
+                                transform: translateY(-10px);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            
+            }
+            .img_creditos {
+                display: flex;
+                justify-content: center;
+                padding-right: 0rem;
+                border-top: $solidwhite;
+                border-bottom: $solidwhite;
+            }
+        }
+    }
+}

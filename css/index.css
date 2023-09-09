@@ -507,7 +507,7 @@ footer .container .img_creditos2 {
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  padding-right: 4rem;
+  padding-right: 0rem;
   margin-bottom: 3rem;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
@@ -524,13 +524,14 @@ footer .container .img_creditos2 .logito-foot:hover {
 footer .container .footer_row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-left: 4rem;
 }
 footer .container .footer_row .footer_links {
   width: 25%;
   padding: 0 1.5rem;
   margin: 1rem;
+  margin-left: 8rem;
 }
 footer .container .footer_row .footer_links .ubii {
   margin-left: 2rem;
@@ -1001,6 +1002,687 @@ footer .container .img_creditos {
   .main-todo3 .c-9.c-8 {
     margin-left: 3rem;
     margin-top: 4rem;
+  }
+}
+@media (max-width: 414px) {
+  #volverainicio {
+    color: white;
+    /* sección siguiente */
+    /* EVENTOS */
+    /* NUESTROS ALUMNOS */
+    /* CONOCE MAS */
+  }
+  #volverainicio.main-todo {
+    background-color: #000000;
+    color: white;
+    font-family: "Hind", sans-serif;
+  }
+  #volverainicio.main-todo .main-principio .main-titulos {
+    margin-left: 0rem;
+  }
+  #volverainicio.main-todo .main-principio .main-titulos .main-h5 {
+    display: none;
+    visibility: hidden;
+    margin-left: 0rem;
+  }
+  #volverainicio.main-todo .main-principio .sec .h1-index {
+    font-size: 3.5rem;
+    color: white;
+    margin-left: 9.8rem;
+  }
+  #volverainicio.main-todo .main-principio .main-imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #volverainicio.main-todo .main-principio .main-imagenes .main-img {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+  }
+  #volverainicio.main-todo .main-principio .main-imagenes .main-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  #volverainicio .secse .main-sede {
+    font-size: 1.5rem;
+    margin-top: 60rem;
+    margin-bottom: 3rem;
+  }
+  #volverainicio .secse .main-sede .h2-main {
+    font-size: 3rem;
+    background-image: url(../img/fondoarenaypinitos.png);
+    border-top: 0.3rem solid white;
+    border-bottom: 0.3rem solid white;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    margin-top: 14rem;
+    background-size: contain;
+    background-position: center center;
+    color: white;
+    text-align: center;
+  }
+  #volverainicio .secse .sedes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #volverainicio .secse .sedesfondo .titulosede {
+    margin-bottom: 0rem;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  #volverainicio .secciondesc .eventotitulo {
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    background-image: url(../img/fondoedificio.png);
+    background-size: contain;
+    background-position: center center;
+    color: white;
+    text-align: center;
+  }
+  #volverainicio .secciondesc .cuerpoevento {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: white;
+  }
+  #volverainicio .secciondesc .cuerpoevento .imgevento {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+  #volverainicio .secciondesc .cuerpoevento .imgevento .imgeventos {
+    height: 15rem;
+    width: 18rem;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  #volverainicio .secciondesc .cuerpoevento .imgevento .h3-p {
+    height: 15rem;
+    width: 18rem;
+    margin-left: 2.5rem;
+  }
+  #volverainicio .secciondesc .cuerpoevento .imgevento .h3-p .h3-evento {
+    font-size: 1.2rem;
+    width: 18rem;
+    text-align: center;
+  }
+  #volverainicio .secciondesc .cuerpoevento .imgevento .h3-p .pdeevento {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+  }
+  #volverainicio .secciondesc .letrablanca {
+    color: white;
+  }
+  #volverainicio .secciondesc .h2-evento {
+    font-size: 2rem;
+    color: white;
+  }
+  #volverainicio .secciondesc .pdeevento {
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+  }
+  #volverainicio .section-alumnos .art-alumnos {
+    font-size: 2rem;
+    color: white;
+  }
+  #volverainicio .section-alumnos .sedesalumnos .alumno .sede-al {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #volverainicio .section-alumnos .sedesalumnos .alumno2 {
+    margin-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+  }
+  #volverainicio .section-alumnos .sedesalumnos .alumno2 .sede-al {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #volverainicio .section-alumnos .art-alumnos2 .img-2,
+  #volverainicio .section-alumnos .art-alumnos2 .img-3 {
+    display: flex;
+  }
+  #volverainicio .section-alumnos .art-alumnos2 .img-2 .div-alumnos,
+  #volverainicio .section-alumnos .art-alumnos2 .img-3 .div-alumnos {
+    margin-right: 0rem;
+  }
+  #volverainicio .section-alumnos .art-alumnos2 .img-2 .img-alumnos,
+  #volverainicio .section-alumnos .art-alumnos2 .img-3 .img-alumnos {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+    border: 2px solid white;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg,
+  #volverainicio .section .artdesc .cococe-tityimgdos {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg.c1,
+  #volverainicio .section .artdesc .cococe-tityimgdos.c1 {
+    justify-content: space-evenly;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg .h3-conoce,
+  #volverainicio .section .artdesc .cococe-tityimgdos .h3-conoce {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg .c1,
+  #volverainicio .section .artdesc .cococe-tityimgdos .c1 {
+    margin-left: 1rem;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg .c2,
+  #volverainicio .section .artdesc .cococe-tityimgdos .c2 {
+    margin-left: 0rem;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg .c3,
+  #volverainicio .section .artdesc .cococe-tityimgdos .c3 {
+    margin-right: 1.5rem;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg .c4,
+  #volverainicio .section .artdesc .cococe-tityimgdos .c4 {
+    margin-right: 3rem;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg .img-cococe,
+  #volverainicio .section .artdesc .cococe-tityimgdos .img-cococe {
+    height: 15rem;
+    width: 15rem;
+  }
+  #volverainicio .section .artdesc .cococe-tityimg .p-cococe,
+  #volverainicio .section .artdesc .cococe-tityimgdos .p-cococe {
+    height: 10rem;
+    width: 15rem;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 415px) and (max-width: 720px) {
+  #volverainicio {
+    color: white;
+  }
+  #volverainicio.main-todo {
+    background-color: #000000;
+    color: white;
+    font-family: "Hind", sans-serif;
+  }
+  #volverainicio.main-todo .main-principio .main-titulos {
+    margin-left: 0rem;
+  }
+  #volverainicio.main-todo .main-principio .main-titulos .main-h5 {
+    display: none;
+    visibility: hidden;
+    margin-left: 0rem;
+  }
+  #volverainicio.main-todo .main-principio .sec .h1-index {
+    font-size: 3.5rem;
+    color: white;
+    margin-left: 15rem;
+  }
+  #volverainicio.main-todo .main-principio .main-imagenes {
+    display: flex;
+    align-items: center;
+  }
+  #volverainicio.main-todo .main-principio .main-imagenes .main-img {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+    border: 0.2rem solid rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+  }
+  #volverainicio.main-todo .main-principio .main-imagenes .main-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+@media (max-width: 414px) {
+  header {
+    background-color: #000000;
+    height: 20rem;
+    width: auto;
+    font-size: small;
+    color: white;
+    position: fixed;
+    font-family: "Hind", sans-serif;
+    z-index: 999;
+  }
+  header .header-nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0.1rem solid rgb(255, 255, 255);
+  }
+  header .header-nav .header-logo {
+    height: 5rem;
+    width: 20rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    padding-top: 0.2rem;
+  }
+  header .header-nav .header-lista {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 40rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+  header .header-nav .header-lista .header-enlace {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 0rem;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  header .header-nav .header-lista .header-enlace:hover {
+    background-color: rgb(36, 35, 42);
+    color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid white;
+    text-align: center;
+  }
+}
+@media (min-width: 415px) and (max-width: 720px) {
+  header {
+    background-color: #000000;
+    height: 8.1rem;
+    width: 100%;
+    font-size: small;
+    color: white;
+    position: fixed;
+    font-family: "Hind", sans-serif;
+    z-index: 999;
+  }
+  header .header-nav {
+    height: 100%;
+    display: flex;
+    text-align: center;
+    border-bottom: 0.1rem solid rgb(255, 255, 255);
+  }
+  header .header-nav .header-logo {
+    height: 4rem;
+    width: 17rem;
+    margin-left: 6rem;
+    margin-top: 1.1rem;
+    margin-right: 8rem;
+    padding-top: 1.5rem;
+  }
+  header .header-nav .header-lista {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    margin-top: 3.2rem;
+    margin-left: 2rem;
+  }
+  header .header-nav .header-lista .header-enlace {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  header .header-nav .header-lista .header-enlace:hover {
+    background-color: rgb(36, 35, 42);
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 1px solid white;
+    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  footer {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    background-color: #000000;
+    padding: 8rem 0;
+  }
+  footer .container {
+    max-width: 150rem;
+    margin: 0 auto;
+  }
+  footer .container .img_creditos2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 0rem;
+    margin-bottom: 3rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  footer .container .img_creditos2 .logito-foot {
+    height: 4rem;
+    width: 20rem;
+    transition: transform 0.3s ease;
+  }
+  footer .container .img_creditos2 .logito-foot:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  footer .container .footer_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 4rem;
+  }
+  footer .container .footer_row .footer_links {
+    width: 30rem;
+    padding: 0 1.5rem;
+    margin: 1rem;
+    margin-left: 7rem;
+  }
+  footer .container .footer_row .footer_links .ubii {
+    margin-left: 2rem;
+  }
+  footer .container .footer_row .footer_links .footer_ubi a img {
+    width: 2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin-right: 1rem;
+  }
+  footer .container .footer_row .footer_links .footer_ubi a img:hover {
+    background-color: #003e08;
+    transition: all 0.5s ease;
+  }
+  footer .container .footer_row .footer_links h4 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    border-bottom: 0.2rem solid #15751e;
+    padding-bottom: 1rem;
+    display: inline-block;
+  }
+  footer .container .footer_row .footer_links ul li a {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  footer .container .footer_row .footer_links ul li a:hover {
+    color: aqua;
+    padding-left: 0.6rem;
+  }
+  footer .container .footer_row .footer_links h4.nav {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    border-bottom: 0.2rem solid #15751e;
+    padding-bottom: 1rem;
+    display: inline-block;
+  }
+  footer .container .footer_row .footer_links ul.ullo li.ulnav a {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  footer .container .footer_row .footer_links ul.ullo li.ulnav a:hover {
+    color: aqua;
+    padding-left: 0.6rem;
+  }
+  footer .container .footer_row .footer_links h4.con {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    border-bottom: 0.2rem solid #15751e;
+    padding-bottom: 1rem;
+    display: inline-block;
+  }
+  footer .container .footer_row .footer_links form.fmr input.inputfoo,
+  footer .container .footer_row .footer_links form.fmr button.btn {
+    margin-bottom: 1rem;
+    display: block;
+    width: 14.5rem;
+    height: 2rem;
+  }
+  footer .container .footer_row .footer_links form.fmr input.inputfoo::placeholder {
+    padding: 0.2rem 0 0.2rem 0.4rem;
+  }
+  footer .container .footer_row .footer_links form.fmr button.btn {
+    background-color: #15751e;
+    border-radius: 1rem;
+    height: 3.5rem;
+    width: 15rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  footer .container .footer_row .footer_links form.fmr button.btn:hover {
+    background-color: #003e08;
+    transition: all 0.5s ease;
+  }
+  footer .container .redes {
+    display: flex;
+    justify-content: center;
+  }
+  footer .container .redes .footer_links {
+    width: 30rem;
+    margin-left: 9rem;
+  }
+  footer .container .redes .footer_links .social_links a {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    background-color: #003e08;
+    margin: 0 1rem 1rem 0;
+    line-height: 2rem;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+  footer .container .redes .footer_links .social_links a:hover {
+    background-color: rgba(0, 62, 8, 0.5529411765);
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  footer .container .img_creditos {
+    display: flex;
+    justify-content: center;
+    padding-right: 0rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+}
+@media (min-width: 415px) and (max-width: 720px) {
+  footer {
+    box-sizing: border-box;
+    text-transform: capitalize;
+    background-color: #000000;
+    padding: 8rem 0;
+  }
+  footer .container {
+    max-width: 150rem;
+    margin: 0 auto;
+  }
+  footer .container .img_creditos2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 0rem;
+    margin-bottom: 3rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  footer .container .img_creditos2 .logito-foot {
+    height: 4rem;
+    width: 20rem;
+    transition: transform 0.3s ease;
+  }
+  footer .container .img_creditos2 .logito-foot:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  footer .container .footer_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+  }
+  footer .container .footer_row .footer_links {
+    width: 30rem;
+    padding: 0 1.5rem;
+    margin: 1rem;
+    margin-left: 22.5rem;
+  }
+  footer .container .footer_row .footer_links .ubii {
+    margin-left: 2rem;
+  }
+  footer .container .footer_row .footer_links .footer_ubi a img {
+    width: 2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin-right: 1rem;
+  }
+  footer .container .footer_row .footer_links .footer_ubi a img:hover {
+    background-color: #003e08;
+    transition: all 0.5s ease;
+  }
+  footer .container .footer_row .footer_links h4 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    border-bottom: 0.2rem solid #15751e;
+    padding-bottom: 1rem;
+    display: inline-block;
+  }
+  footer .container .footer_row .footer_links ul li a {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  footer .container .footer_row .footer_links ul li a:hover {
+    color: aqua;
+    padding-left: 0.6rem;
+  }
+  footer .container .footer_row .footer_links h4.nav {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    border-bottom: 0.2rem solid #15751e;
+    padding-bottom: 1rem;
+    display: inline-block;
+  }
+  footer .container .footer_row .footer_links ul.ullo li.ulnav a {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+  }
+  footer .container .footer_row .footer_links ul.ullo li.ulnav a:hover {
+    color: aqua;
+    padding-left: 0.6rem;
+  }
+  footer .container .footer_row .footer_links h4.con {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    border-bottom: 0.2rem solid #15751e;
+    padding-bottom: 1rem;
+    display: inline-block;
+  }
+  footer .container .footer_row .footer_links form.fmr input.inputfoo,
+  footer .container .footer_row .footer_links form.fmr button.btn {
+    margin-bottom: 1rem;
+    display: block;
+    width: 14.5rem;
+    height: 2rem;
+  }
+  footer .container .footer_row .footer_links form.fmr input.inputfoo::placeholder {
+    padding: 0.2rem 0 0.2rem 0.4rem;
+  }
+  footer .container .footer_row .footer_links form.fmr button.btn {
+    background-color: #15751e;
+    border-radius: 1rem;
+    height: 3.5rem;
+    width: 15rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  footer .container .footer_row .footer_links form.fmr button.btn:hover {
+    background-color: #003e08;
+    transition: all 0.5s ease;
+  }
+  footer .container .redes {
+    display: flex;
+    justify-content: center;
+  }
+  footer .container .redes .footer_links {
+    width: 30rem;
+    margin-left: 10rem;
+  }
+  footer .container .redes .footer_links .social_links a {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    background-color: #003e08;
+    margin: 0 1rem 1rem 0;
+    line-height: 2rem;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+  footer .container .redes .footer_links .social_links a:hover {
+    background-color: rgba(0, 62, 8, 0.5529411765);
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  footer .container .img_creditos {
+    display: flex;
+    justify-content: center;
+    padding-right: 0rem;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
   }
 }
 * {

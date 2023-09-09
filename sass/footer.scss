@@ -23,7 +23,7 @@ footer {
             justify-content: center;
             padding-top: 2rem;
             padding-bottom: 2rem;
-            padding-right: 4rem;
+            padding-right: 0rem;
             margin-bottom: 3rem;
             border-top: $solidwhite;
             border-bottom: $solidwhite;
@@ -43,13 +43,14 @@ footer {
         .footer_row {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly;
+            justify-content: space-between;
             margin-left: 4rem;
 
             .footer_links {
                 width: 25%;
                 padding: 0 1.5rem;
                 margin: $unrem;
+                margin-left: 8rem;
 
                 .ubii {
                     margin-left: 2rem;
