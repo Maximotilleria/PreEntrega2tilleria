@@ -43,7 +43,6 @@ html {
 header {
     background-color: $colornegro;
     height: 8.1rem;
-    width: 100%;
     font-size: small;
     color: white;
     position: fixed;
@@ -68,8 +67,10 @@ header {
         justify-content: center;
         height: 100%;
         width: 60%;
+        padding-left: 3rem;
+        margin-right:10rem;
         margin-top: 3.2rem;
-        margin-left: 30rem;
+        margin-left: 38rem;
         .header-enlace {
             color: white;
             text-decoration: none;

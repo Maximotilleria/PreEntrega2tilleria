@@ -496,7 +496,6 @@ footer {
   box-sizing: border-box;
   text-transform: capitalize;
   background-color: #000000;
-  padding: 8rem 0;
 }
 footer .container {
   max-width: 150rem;
@@ -1215,6 +1214,7 @@ footer .container .img_creditos {
     background-color: #000000;
     color: white;
     font-family: "Hind", sans-serif;
+    overflow-x: hidden;
   }
   #volverainicio.main-todo .main-principio .main-titulos {
     margin-left: 0rem;
@@ -1249,10 +1249,10 @@ footer .container .img_creditos {
   header {
     background-color: #000000;
     height: 20rem;
-    width: auto;
+    width: 414px;
     font-size: small;
     color: white;
-    position: fixed;
+    position: none;
     font-family: "Hind", sans-serif;
     z-index: 999;
   }
@@ -1278,6 +1278,8 @@ footer .container .img_creditos {
     width: 40rem;
     margin-top: 0rem;
     margin-left: 0rem;
+    padding-left: 0rem;
+    margin-right: 0rem;
   }
   header .header-nav .header-lista .header-enlace {
     color: white;
@@ -1304,7 +1306,6 @@ footer .container .img_creditos {
   header {
     background-color: #000000;
     height: 8.1rem;
-    width: 100%;
     font-size: small;
     color: white;
     position: fixed;
@@ -1360,7 +1361,7 @@ footer .container .img_creditos {
     box-sizing: border-box;
     text-transform: capitalize;
     background-color: #000000;
-    padding: 8rem 0;
+    padding-top: 8rem;
   }
   footer .container {
     max-width: 150rem;
@@ -1701,7 +1702,6 @@ html {
 header {
   background-color: #000000;
   height: 8.1rem;
-  width: 100%;
   font-size: small;
   color: white;
   position: fixed;
@@ -1727,8 +1727,10 @@ header .header-lista {
   justify-content: center;
   height: 100%;
   width: 60%;
+  padding-left: 3rem;
+  margin-right: 10rem;
   margin-top: 3.2rem;
-  margin-left: 30rem;
+  margin-left: 38rem;
 }
 header .header-lista .header-enlace {
   color: white;
