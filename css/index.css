@@ -3,6 +3,7 @@
   background-color: #000000;
   color: white;
   padding-top: 8rem;
+  padding-bottom: 5rem;
   /* primera seccion */
   /* segunda seccion */
   /* tercera seccion */
@@ -27,6 +28,9 @@
 .main-todo3 .ds2 {
   display: flex;
   justify-content: space-around;
+}
+.main-todo3 .abajofoot {
+  margin-bottom: 5rem;
 }
 .main-todo3 .c-1 {
   font-size: 1rem;
@@ -410,6 +414,9 @@
   line-height: 2rem;
 }
 
+.main-todo2 {
+  padding-bottom: 4rem;
+}
 .main-todo2 .secdecontacto .contacto {
   text-align: center;
   font-size: 3rem;
@@ -431,6 +438,7 @@
   border: 2px solid white;
   background-position: 100%;
   margin-left: 50rem;
+  margin-bottom: 4rem;
   display: flex;
   justify-content: center;
 }
@@ -1760,6 +1768,7 @@ header .header-lista .header-enlace:hover {
   background-color: #000000;
   color: white;
   font-family: "Hind", sans-serif;
+  padding-bottom: 4rem;
 }
 #volverainicio.main-todo .main-principio {
   background-color: #000000;

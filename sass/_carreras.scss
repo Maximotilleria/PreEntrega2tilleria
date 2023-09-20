@@ -1,15 +1,11 @@
-$colornegro:#000000;
-$veinterem: 20rem;
-$unrem:1rem;
-$cincorem: 5rem;
-$solidwhite:2px solid white;
-$mayuscula: uppercase;
+@import '_variables.scss';
 
 // CARRERAS
 .main-todo3 {
     background-color: $colornegro;
     color: white;
     padding-top: 8rem;
+    padding-bottom: 5rem;
     
 
     .ds {
@@ -36,6 +32,9 @@ $mayuscula: uppercase;
     .ds2 {
         display: flex;
         justify-content: space-around;
+    }
+    .abajofoot{
+        margin-bottom: 5rem;
     }
 
     .c-1 {
@@ -148,5 +147,6 @@ $mayuscula: uppercase;
     &.c-9 {
         margin-top: 4rem;
     }
+    
 }
 // FIN DE CARRERAS

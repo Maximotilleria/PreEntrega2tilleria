@@ -1,30 +1,22 @@
-@import 'carreras';
-@import 'maestriasyposgrados';
-@import 'cursos';
-@import 'contacto.scss';
-@import 'footer.scss';
-@import 'responsivecurso.scss';
-@import 'responsivecontacto.scss';
-@import 'responsivemaestriasyposgrados.scss';
-@import 'responsivecarreras.scss';
-@import 'responsiveindex.scss';
-@import 'responsivenav.scss';
-@import 'responsivefooter.scss';
+@import '_carreras';
+@import '_maestriasyposgrados';
+@import '_cursos';
+@import '_contacto.scss';
+@import '_footer.scss';
+@import '_responsivecurso.scss';
+@import '_responsivecontacto.scss';
+@import '_responsivemaestriasyposgrados.scss';
+@import '_responsivecarreras.scss';
+@import '_responsiveindex.scss';
+@import '_responsivenav.scss';
+@import '_responsivefooter.scss';
+@import '_variables.scss';
 
 
-$colornegro:#000000;
-$veinterem: 20rem;
-$unrem:1rem;
-$cincorem: 5rem;
-$solidwhite:2px solid white;
 
 
-@mixin estilotitulo {
-    background-size: contain;
-    background-position: center center;
-    color: white;
-    text-align: center;
-}
+
+
 
 
 * {
@@ -102,6 +94,7 @@ header {
         background-color: $colornegro;
         color: white;
         font-family: 'Hind', sans-serif;
+        padding-bottom: 4rem;
 
         .main-principio {
         background-color: $colornegro;

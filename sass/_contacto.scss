@@ -1,13 +1,8 @@
-$colornegro:#000000;
-$veinterem: 20rem;
-$unrem:1rem;
-$cincorem: 5rem;
-$solidwhite:2px solid white;
-$mayuscula: uppercase;
+@import '_variables.scss';
 
 // CONTACTO
 .main-todo2 {
-    
+    padding-bottom: 4rem;
     .secdecontacto {
         .contacto {
             text-align: center;
@@ -32,6 +27,7 @@ $mayuscula: uppercase;
         border: $solidwhite;
         background-position: 100%;
         margin-left: 50rem;
+        margin-bottom: 4rem;
         display: flex;
         justify-content: center;
 

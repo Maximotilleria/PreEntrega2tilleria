@@ -1,9 +1,4 @@
-$colornegro:#000000;
-$veinterem: 20rem;
-$unrem:1rem;
-$cincorem: 5rem;
-$solidwhite:2px solid white;
-$mayuscula: uppercase;
+@import '_variables.scss';
 
 @mixin titulodemaes {
     background-position: 100%;
