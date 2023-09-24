@@ -95,6 +95,7 @@
                 justify-content: center;
                 height: 100%;
                 width: 60%;
+                margin-right: 0;
                 margin-top: 3.2rem;
                 margin-left: 2rem;
 
@@ -115,8 +116,8 @@
                     color: rgb(255, 255, 255);
                     padding-top: 2rem;
                     padding-bottom: 2rem;
-                    padding-left: $unrem;
-                    padding-right: $unrem;
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
                     border: 1px solid white;
                     text-align: center;
                 }
